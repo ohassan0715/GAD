@@ -1,0 +1,28 @@
+VARIABLE[S],TYPE,EXPLANATION
+Zeitstempel,Excel DateTime,Time stamp
+Reference,char,Where they know the study from
+Accept,char,Accepted consent form
+Hours,num,Hours played per week
+streams,num,Additionnal hours dealing with the game other than playing
+Game,char,Which game is played the most
+Platform,char,Which platform is used the most
+earnings,char,Earnings related to gaming (multiple choice plus 'Other')
+whyplay,char,Motivation for playing (multiple choice plus 'Other')
+Playstyle,char,Do they play online or offline? (single choice plus 'Other')
+League,char,"Which League are they in (game-sppecific ranking, free-text)"
+highestleague,char,"Which League was their highest ever (game-sppecific ranking, free-text)"
+SPIN_T,num,total SPIN score
+SPIN_T[1-17],num,individual SPIN item scores
+GAD_T,num,total GAD score
+GAD[1-7],num,individual GAD item scores
+SWL_T,num,total SWL score
+SWL[1-5],num,individual SWL item scores
+Narcissism,num,SINS score
+Birthplace,char,Country of birth in English
+Birthplace_ISO3,char,Country of birth in ISO3 format
+Residence,char,Country of residence in English
+Residence_ISO3,char,Country of residence in ISO3 format
+Age,num,Age in years
+Work,char,Occupation status (single choice)
+Degree,char,Highest degree (single choice)
+Gender,char,Gender (single choice)
