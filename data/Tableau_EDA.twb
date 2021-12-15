@@ -1,0 +1,2679 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook original-version='18.1' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='GamingStudy_data' inline='true' name='federated.1ctv84d1ib84j7178x13c006jecw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GamingStudy_data' name='textscan.09nfn410btz2um11jsvq40g3i96o'>
+            <connection class='textscan' directory='C:/Users/ohass/Documents/GMU_DAEN/AIT 664/Project' filename='GamingStudy_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.09nfn410btz2um11jsvq40g3i96o' name='GamingStudy_data_v4.csv' table='[GamingStudy_data_v4#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='playernum' ordinal='0' />
+            <column datatype='string' name='Game' ordinal='1' />
+            <column datatype='string' name='whyplay' ordinal='2' />
+            <column datatype='integer' name='Weekly_Hours' ordinal='3' />
+            <column datatype='string' name='Gender' ordinal='4' />
+            <column datatype='integer' name='Age' ordinal='5' />
+            <column datatype='string' name='Work' ordinal='6' />
+            <column datatype='string' name='Degree' ordinal='7' />
+            <column datatype='string' name='Residence' ordinal='8' />
+            <column datatype='string' name='Playstyle' ordinal='9' />
+            <column datatype='integer' name='GAD_T' ordinal='10' />
+            <column datatype='integer' name='SWL_T' ordinal='11' />
+            <column datatype='integer' name='SPIN_T' ordinal='12' />
+            <column datatype='string' name='Residence_ISO3' ordinal='13' />
+            <column datatype='string' name='motivation' ordinal='14' />
+            <column datatype='string' name='occupation' ordinal='15' />
+            <column datatype='string' name='styleofplay' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.09nfn410btz2um11jsvq40g3i96o' name='GamingStudy_data_v4.csv' table='[GamingStudy_data_v4#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='playernum' ordinal='0' />
+            <column datatype='string' name='Game' ordinal='1' />
+            <column datatype='string' name='whyplay' ordinal='2' />
+            <column datatype='integer' name='Weekly_Hours' ordinal='3' />
+            <column datatype='string' name='Gender' ordinal='4' />
+            <column datatype='integer' name='Age' ordinal='5' />
+            <column datatype='string' name='Work' ordinal='6' />
+            <column datatype='string' name='Degree' ordinal='7' />
+            <column datatype='string' name='Residence' ordinal='8' />
+            <column datatype='string' name='Playstyle' ordinal='9' />
+            <column datatype='integer' name='GAD_T' ordinal='10' />
+            <column datatype='integer' name='SWL_T' ordinal='11' />
+            <column datatype='integer' name='SPIN_T' ordinal='12' />
+            <column datatype='string' name='Residence_ISO3' ordinal='13' />
+            <column datatype='string' name='motivation' ordinal='14' />
+            <column datatype='string' name='occupation' ordinal='15' />
+            <column datatype='string' name='styleofplay' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>playernum</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[playernum]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>playernum</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Game</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Game]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Game</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>whyplay</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[whyplay]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>whyplay</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekly_Hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weekly_Hours]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Weekly_Hours</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Work]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Work</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Degree</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Degree]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Degree</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Residence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Residence]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Residence</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Playstyle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Playstyle]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Playstyle</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GAD_T</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GAD_T]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>GAD_T</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SWL_T</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SWL_T]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>SWL_T</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPIN_T</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SPIN_T]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>SPIN_T</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Residence_ISO3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Residence_ISO3]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>Residence_ISO3</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>motivation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[motivation]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>motivation</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>occupation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[occupation]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>occupation</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>styleofplay</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[styleofplay]</local-name>
+            <parent-name>[GamingStudy_data_v4.csv]</parent-name>
+            <remote-alias>styleofplay</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Gad T' datatype='integer' name='[GAD_T]' role='measure' type='quantitative' />
+      <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+      <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+      <column caption='Residence ISO3' datatype='string' name='[Residence_ISO3]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Spin T' datatype='integer' name='[SPIN_T]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Swl T' datatype='integer' name='[SWL_T]' role='measure' type='quantitative' />
+      <column caption='Weekly Hours1' datatype='integer' name='[Weekly_Hours]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='GamingStudy_data_v4.csv' datatype='table' name='[__tableau_internal_object_id__].[GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73]' role='measure' type='quantitative' />
+      <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+      <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+      <column aggregation='Count' caption='Playernum' datatype='integer' name='[playernum]' role='measure' type='quantitative' />
+      <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+      <column caption='Whyplay' datatype='string' name='[whyplay]' role='dimension' type='nominal' />
+      <group caption='Action (Age Group)' hidden='true' name='[Action (Age Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_108086434074742786]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Game)' hidden='true' name='[Action (Game)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Game]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Game1) 1' hidden='true' name='[Action (Game1) 1]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Game]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Game1)' hidden='true' name='[Action (Game1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[game]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Motivation)' hidden='true' name='[Action (Motivation)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[motivation]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (StyleofPlay)' hidden='true' name='[Action (StyleofPlay)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_108086434214776836]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Styleofplay)' hidden='true' name='[Action (Styleofplay)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[styleofplay]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (motivation)' hidden='true' name='[Action (motivation)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_108086433981710337]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1ctv84d1ib84j7178x13c006jecw].[sum:Hours:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1ctv84d1ib84j7178x13c006jecw].[usr:Calculation_108086434223394823:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1ctv84d1ib84j7178x13c006jecw].[sum:streams:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='GamingStudy_data_v4.csv' id='GamingStudy_data_v4.csv_6AE0A09D729C4024B9B149226C551D73'>
+            <properties context=''>
+              <relation connection='textscan.09nfn410btz2um11jsvq40g3i96o' name='GamingStudy_data_v4.csv' table='[GamingStudy_data_v4#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='playernum' ordinal='0' />
+                  <column datatype='string' name='Game' ordinal='1' />
+                  <column datatype='string' name='whyplay' ordinal='2' />
+                  <column datatype='integer' name='Weekly_Hours' ordinal='3' />
+                  <column datatype='string' name='Gender' ordinal='4' />
+                  <column datatype='integer' name='Age' ordinal='5' />
+                  <column datatype='string' name='Work' ordinal='6' />
+                  <column datatype='string' name='Degree' ordinal='7' />
+                  <column datatype='string' name='Residence' ordinal='8' />
+                  <column datatype='string' name='Playstyle' ordinal='9' />
+                  <column datatype='integer' name='GAD_T' ordinal='10' />
+                  <column datatype='integer' name='SWL_T' ordinal='11' />
+                  <column datatype='integer' name='SPIN_T' ordinal='12' />
+                  <column datatype='string' name='Residence_ISO3' ordinal='13' />
+                  <column datatype='string' name='motivation' ordinal='14' />
+                  <column datatype='string' name='occupation' ordinal='15' />
+                  <column datatype='string' name='styleofplay' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1ctv84d1ib84j7178x13c006jecw'>
+      <datasources>
+        <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+        <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+        <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+        <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+        <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+        <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]'>
+        <groupfilter function='level-members' level='[none:Degree:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]'>
+        <groupfilter function='level-members' level='[none:Residence:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]'>
+        <groupfilter function='level-members' level='[none:occupation:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='motivation' name='[Action1_C8B8E64270074CD0BBB37316B7B6378F]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='WhyPlay?' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='playstyle' name='[Action2_E62E00F2CB684FD1BD2F13331D031718]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='PlayStyle' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='game' name='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Games' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='age' name='[Action4_253E23C05CF648D180748F47C00C87A3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Age' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>What age groups do our players belong to?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[cnt:playernum:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_108086434074742786]' derivation='None' name='[none:Calculation_108086434074742786:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column aggregation='Count' caption='Playernum' datatype='integer' name='[playernum]' role='measure' type='quantitative' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='43' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='161' />
+            <format attr='font-weight' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='normal' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-weight' data-class='subtotal' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='normal' />
+            <format attr='font-weight' data-class='total' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='normal' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='11' />
+            <format attr='font-weight' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='auto' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='10' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#0091d5' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]</rows>
+        <cols>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]</cols>
+      </table>
+      <simple-id uuid='{C0BD267B-1F49-469C-B8E7-59A7962B9A84}' />
+    </worksheet>
+    <worksheet name='Ban1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[cnt:playernum:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column aggregation='Count' caption='Playernum' datatype='integer' name='[playernum]' role='measure' type='quantitative' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='203' />
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+            <format attr='text-align' value='center' />
+            <format attr='color' value='#0091d5' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='24' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#4e79a7' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='font-size' value='10' />
+            <format attr='color' value='#000000' />
+            <format attr='title' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]' value='Select Home Country'>
+              <formatted-text>
+                <run>Select Home Country</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]' value='Select Occupation'>
+              <formatted-text>
+                <run>Select Occupation</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]' value='Highest Degree Earned'>
+              <formatted-text>
+                <run>Highest Degree Earned</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='font-size' value='10' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='20'>Players</run>
+                <run>Æ&#10;</run>
+                <run fontsize='20'><![CDATA[<[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B9D9433D-9003-4528-9CF5-483F55688A6E}' />
+    </worksheet>
+    <worksheet name='Ban2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column aggregation='Avg' caption='Gad T' datatype='integer' name='[GAD_T]' role='measure' type='quantitative' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column-instance column='[GAD_T]' derivation='Avg' name='[avg:GAD_T:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='203' />
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+            <format attr='text-align' value='center' />
+            <format attr='color' value='#ac3e31' />
+            <format attr='text-format' field='[federated.1ctv84d1ib84j7178x13c006jecw].[avg:GAD_T:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='24' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#ac3e31' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[avg:GAD_T:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ac3e31' fontsize='20'>GAD Average</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#ac3e31' fontsize='20'><![CDATA[<[federated.1ctv84d1ib84j7178x13c006jecw].[avg:GAD_T:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{60BD479D-AAF1-4C6B-A7D6-DEEC421C367F}' />
+    </worksheet>
+    <worksheet name='Ban3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column aggregation='Avg' caption='Spin T' datatype='integer' name='[SPIN_T]' role='measure' type='quantitative' />
+            <column-instance column='[SPIN_T]' derivation='Avg' name='[avg:SPIN_T:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='203' />
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+            <format attr='text-align' value='center' />
+            <format attr='color' value='#ea6a47' />
+            <format attr='text-format' field='[federated.1ctv84d1ib84j7178x13c006jecw].[avg:SPIN_T:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='24' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#4e79a7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[avg:SPIN_T:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='20'>SPIN Average</run>
+                <run>Æ&#10;</run>
+                <run fontsize='20'><![CDATA[<[federated.1ctv84d1ib84j7178x13c006jecw].[avg:SPIN_T:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FBBF1AEF-3397-465C-B937-4B567371B487}' />
+    </worksheet>
+    <worksheet name='Ban4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column aggregation='Avg' caption='Swl T' datatype='integer' name='[SWL_T]' role='measure' type='quantitative' />
+            <column-instance column='[SWL_T]' derivation='Avg' name='[avg:SWL_T:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='203' />
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+            <format attr='text-align' value='center' />
+            <format attr='color' value='#dbae58' />
+            <format attr='text-format' field='[federated.1ctv84d1ib84j7178x13c006jecw].[avg:SWL_T:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' value='9' />
+            <format attr='font-size' data-class='subtotal' value='9' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' value='#666666' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='24' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#dbae58' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[avg:SWL_T:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='20'>SWL Average</run>
+                <run>Æ&#10;</run>
+                <run fontsize='20'><![CDATA[<[federated.1ctv84d1ib84j7178x13c006jecw].[avg:SWL_T:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{04F41A0A-C377-48F9-B4C3-93E2B1D7F251}' />
+    </worksheet>
+    <worksheet name='Games'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Games Played</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[cnt:playernum:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Game]' derivation='None' name='[none:Game:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column aggregation='Count' caption='Playernum' datatype='integer' name='[playernum]' role='measure' type='quantitative' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Game:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Game:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{B8304A51-D971-4AFE-A904-850EBE573BBF}' />
+    </worksheet>
+    <worksheet name='Hours'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Hours Played (Weekly)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column caption='Weekly Hours1' datatype='integer' name='[Weekly_Hours]' role='measure' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+            <column-instance column='[Weekly_Hours]' derivation='Sum' name='[sum:Weekly_Hours:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_blue' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.1ctv84d1ib84j7178x13c006jecw].[sum:Weekly_Hours:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1ctv84d1ib84j7178x13c006jecw].[sum:Weekly_Hours:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.47176796197891235' />
+                <format attr='mark-color' value='#b4b4b4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ctv84d1ib84j7178x13c006jecw].[sum:Weekly_Hours:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1F58F597-409D-420C-96B0-592944434F75}' />
+    </worksheet>
+    <worksheet name='PlayStyle'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Players&apos; preferred style of play?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[cnt:playernum:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[styleofplay]' derivation='None' name='[none:styleofplay:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[pcto:cnt:playernum:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column aggregation='Count' caption='Playernum' datatype='integer' name='[playernum]' role='measure' type='quantitative' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]'>
+            <groupfilter function='level-members' level='[motivation]' user:ui-action-filter='[Action1_C8B8E64270074CD0BBB37316B7B6378F]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Motivation)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ctv84d1ib84j7178x13c006jecw].[pcto:cnt:playernum:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d3dde0</color>
+                <color>#b7c9cf</color>
+                <color>#9db6be</color>
+                <color>#85a4ad</color>
+                <color>#6f929d</color>
+                <color>#5b808c</color>
+                <color>#496f7b</color>
+                <color>#395e6a</color>
+                <color>#2b4e59</color>
+                <color>#1f3f49</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+              <color column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[none:styleofplay:nk]' />
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[pcto:cnt:playernum:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2A156A5F-E55E-4AA8-B88A-B4EB3FF05C09}' />
+    </worksheet>
+    <worksheet name='WhyPlay?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000'>Most important thing when playing?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Group' datatype='string' name='[Calculation_108086434074742786]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &gt;= 18 AND [Age] &lt; 26&#13;&#10;THEN &quot;18-25&quot;&#13;&#10;ELSEIF [Age] &gt;= 26 AND [Age] &lt; 33&#13;&#10;THEN &quot;26-32&quot;&#13;&#10;ELSEIF [Age] &gt;= 33 AND [Age] &lt; 40&#13;&#10;THEN &quot;33-39&quot;&#13;&#10;ELSE &quot;40+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+            <column caption='Game1' datatype='string' name='[Game]' role='dimension' type='nominal' />
+            <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[cnt:playernum:qk]' pivot='key' type='quantitative' />
+            <column caption='Motivation' datatype='string' name='[motivation]' role='dimension' type='nominal' />
+            <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+            <column-instance column='[motivation]' derivation='None' name='[none:motivation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+            <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+            <column-instance column='[playernum]' derivation='Count' name='[pcto:cnt:playernum:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column aggregation='Count' caption='Playernum' datatype='integer' name='[playernum]' role='measure' type='quantitative' />
+            <column caption='Styleofplay' datatype='string' name='[styleofplay]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]'>
+            <groupfilter function='level-members' level='[Calculation_108086434074742786]' user:ui-action-filter='[Action4_253E23C05CF648D180748F47C00C87A3]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]'>
+            <groupfilter function='level-members' level='[Game]' user:ui-action-filter='[Action3_D54C3DF050124EF09AFC0B02F4E8DB17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]'>
+            <groupfilter function='level-members' level='[styleofplay]' user:ui-action-filter='[Action2_E62E00F2CB684FD1BD2F13331D031718]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Age Group)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Styleofplay)]</column>
+            <column>[federated.1ctv84d1ib84j7178x13c006jecw].[Action (Game1) 1]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' scope='rows' value='0' />
+            <format attr='border-style' scope='rows' value='none' />
+            <format attr='text-format' field='[federated.1ctv84d1ib84j7178x13c006jecw].[pcto:cnt:playernum:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d6e6ee</color>
+                <color>#bcdceb</color>
+                <color>#a2d2e8</color>
+                <color>#89c8e5</color>
+                <color>#71bee3</color>
+                <color>#59b5e0</color>
+                <color>#42abdd</color>
+                <color>#2ba2da</color>
+                <color>#1599d7</color>
+                <color>#0091d5</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.1ctv84d1ib84j7178x13c006jecw].[pcto:cnt:playernum:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d6e6ee</color>
+                <color>#bcdceb</color>
+                <color>#a2d2e8</color>
+                <color>#89c8e5</color>
+                <color>#71bee3</color>
+                <color>#59b5e0</color>
+                <color>#42abdd</color>
+                <color>#2ba2da</color>
+                <color>#1599d7</color>
+                <color>#0091d5</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='border-width' scope='rows' value='0' />
+            <format attr='border-style' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#ffffff' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+              <color column='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' />
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[none:motivation:nk]' />
+              <text column='[federated.1ctv84d1ib84j7178x13c006jecw].[pcto:cnt:playernum:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C5C23709-9CED-4C3D-B839-33A21802AB8D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e6e6e6' />
+        </style-rule>
+      </style>
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='GamingStudy_data' name='federated.1ctv84d1ib84j7178x13c006jecw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ctv84d1ib84j7178x13c006jecw'>
+        <column caption='Degree1' datatype='string' name='[Degree]' role='dimension' type='nominal' />
+        <column caption='Residence1' datatype='string' name='[Residence]' role='dimension' type='nominal' />
+        <column-instance column='[Degree]' derivation='None' name='[none:Degree:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Residence]' derivation='None' name='[none:Residence:nk]' pivot='key' type='nominal' />
+        <column-instance column='[occupation]' derivation='None' name='[none:occupation:nk]' pivot='key' type='nominal' />
+        <column caption='Occupation' datatype='string' name='[occupation]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='15625' id='3' name='Ban1' show-title='false' w='20132' x='366' y='651' />
+        <zone h='33333' id='4' name='WhyPlay?' w='41362' x='366' y='17969' />
+        <zone h='47266' id='11' name='Age' w='41362' x='42826' y='52083' />
+        <zone h='33333' id='14' name='PlayStyle' w='41362' x='42826' y='17969' />
+        <zone h='15625' id='15' name='Ban2' show-title='false' w='20132' x='21669' y='651' />
+        <zone h='15625' id='16' name='Ban3' show-title='false' w='20132' x='42826' y='651' />
+        <zone h='15625' id='17' name='Ban4' show-title='false' w='20132' x='64056' y='651' />
+        <zone h='47266' id='20' name='Games' w='20132' x='366' y='52083' />
+        <zone h='47266' id='25' name='Hours' w='20132' x='21596' y='52083' />
+        <zone h='9766' id='47' mode='dropdown' name='Ban1' param='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]' type-v2='filter' values='database' w='14641' x='84993' y='6510' />
+        <zone h='18229' id='48' mode='radiolist' name='Ban1' param='[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]' type-v2='filter' values='database' w='14641' x='84993' y='17969' />
+        <zone h='22135' id='49' mode='radiolist' name='Ban1' param='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]' type-v2='filter' values='database' w='14641' x='84993' y='37109' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2100' minheight='2100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='55' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='54' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+                <zone h='9766' id='47' mode='dropdown' name='Ban1' param='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]' type-v2='filter' values='database' w='14641' x='84993' y='6510'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18229' id='48' mode='dropdown' name='Ban1' param='[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]' type-v2='filter' values='database' w='14641' x='84993' y='17969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='22135' id='49' mode='dropdown' name='Ban1' param='[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]' type-v2='filter' values='database' w='14641' x='84993' y='37109'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='120' h='15625' id='3' is-fixed='true' name='Ban1' show-title='false' w='20132' x='366' y='651'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='120' h='15625' id='15' is-fixed='true' name='Ban2' show-title='false' w='20132' x='21669' y='651'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='120' h='15625' id='16' is-fixed='true' name='Ban3' show-title='false' w='20132' x='42826' y='651'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='120' h='15625' id='17' is-fixed='true' name='Ban4' show-title='false' w='20132' x='64056' y='651'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' h='33333' id='4' is-fixed='true' name='WhyPlay?' w='41362' x='366' y='17969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' h='33333' id='14' is-fixed='true' name='PlayStyle' w='41362' x='42826' y='17969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47266' id='20' is-fixed='true' name='Games' w='20132' x='366' y='52083'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47266' id='25' is-fixed='true' name='Hours' w='20132' x='21596' y='52083'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='47266' id='11' is-fixed='true' name='Age' w='41362' x='42826' y='52083'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F6E19BBE-9673-400D-B38A-0D5BB21F79C5}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Ban1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Ban2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Ban3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Ban4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Games'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hours'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='PlayStyle'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='WhyPlay?'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{5A4A323D-F401-456B-8A10-72959729C0F1}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='196'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:S. No.:ok]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434074742786:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AD31E8F8-E8F9-4F96-ABDA-5EB8ABCDBB39}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ban1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:S. No.:ok]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086433978675200:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434216906758:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Degree:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Residence:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:degree:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation (GamingStudy_data_v4.csv):nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:occupation:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:residence:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{36E190D2-9DFA-4F53-86FC-2820249FA9E7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ban2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086433978675200:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0D9DCA66-FA19-48DB-BBB8-ED4110D09F17}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ban3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086433978675200:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0204A53F-8727-4718-9927-A8876D70703D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Ban4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086433978675200:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{047FC900-6718-489D-8D02-5F6A84198536}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Games'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:S. No.:ok]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Game:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:game:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{0C7D7390-4C1D-4221-9C6C-419FC06B9D52}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Hours'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{CC270077-9B72-4F31-879F-C0E47CD288B2}' />
+    </window>
+    <window class='worksheet' hidden='true' name='PlayStyle'>
+      <cards>
+        <edge name='left'>
+          <strip size='238'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086434214776836:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Playstyle:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:styleofplay (GamingStudy_data_v4.csv):nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:styleofplay:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E30275F1-229A-4526-A9F7-AFBCD866C396}' />
+    </window>
+    <window class='worksheet' hidden='true' name='WhyPlay?'>
+      <cards>
+        <edge name='left'>
+          <strip size='229'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[cnt:playernum (GamingStudy_data_v4.csv):qk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:Calculation_108086433981710337:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:motivation (GamingStudy_data_v4.csv):nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:motivation:nk]</field>
+            <field>[federated.1ctv84d1ib84j7178x13c006jecw].[none:whyplay:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6FAAD3D5-E222-4672-99D3-86EB49FB5C17}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Dashboard 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nOzdd3gVVd7A8e/tuS29B0iAUJKAdKRKE0EUEOwVFSyra1ldddfVVda1i/1V
+      sYu9oNhRcanSCTUQQhICIb3f3mbO+8eNwZigWBAk5/M8PA+558zMmblz5zfnzJxzNOXl5QJJ
+      kiSpw9Ee7QJIkiRJR4f++/8YjUaMRuPRLIv0J+ByuX4y3Waz/UElkf6sAoEAgUCg3TR5Hfpj
+      tQoAdrv9aJZF+hP4uQAgzyHp5zidzp8MAPIc+uPIJiBJkqQOSgYASZKkDkoGAEmSpA5KBgBJ
+      kqQOSgYASZKkDkoGAEmSpA5KBgBJkqQOSgYASZKkDkoGAEmSpA5KBgBJkqQOSgYASZKkDkoG
+      AEmSpA5KBgBJkqQOSgYASZKkDkr/81mObU1+hW11fhQ1PLGZQashI9JAqlWPRqPBHVS5dVUV
+      Q5LMXJodfZRLKx0pit+Po6SIkMeDRq/H1qkLpugYNBpNS56Q10NjYQEIQVRmTwwWa0tawNFE
+      095CaD6PdBFmbJ27YLDaWq3jx1QlRFPhHkJeN7bO6ZjjEo7cTkq/OxHwEyovQQT8aIxGdEmd
+      0ZrD50Wougy1sS6cUQMakwV9Uic0pojwsn4fobJidAmpaO3RCEUhVL4X4feiT+2K1hKeG0MI
+      FaW8BE2EFV1cUvvlUBRCZcUInxddUid0UbFHfuc5DgLAzno/0z/dT0akkUijFr8i8IUE1/eP
+      5ZLeUYRUQW6NjwTLn35XpUOoy9vGjuefJuT1oDebQVXR6A30v+FWIjO6teSr2byR9f+5HSFU
+      htx+D2ljJrSkNeTnsfbft2JPz0BniiDk9aAzmel1wSySh41Co22/suyprGDtXbfiq6km86zz
+      6HP1jT8ZMKRjh1JbifPtJxEeFxqTCREMz1Fgv+gm9CnpeJd+hH/jMvSpGYAG1etGFxOPdeYV
+      6JM6o9RX4XjhHqxnXkXE4LGIgA/Xu08TKtmNdeoszKecg0ajBUXB9dFLGLpmYT3tonbLotZX
+      4XjxXtTGWsxjp2OdMecPOY+Oi6ui1aDl/8YmMyzZgiuo8tjmOv67oYZRqWYSzcfFLkqH4Dqw
+      n7X/voXU0ePIungOptg41GCQxoJdGGwHJxYRqkrV+jXEndAfVEHVhjWkjhqLRqdryWOw2Rn8
+      j7nYM7rhr69jzwdvseWJBxlijyS+b/92t1+/czt6k4mM06ZTs3UzQacDY2TUEd9v6bdzL34b
+      gKhr70FrjUT1uAgW54H24DmhT+9F1NV3g06PUl2G87WH8f7vI2znXnvI9eq7ZuHLXYFp0Fh0
+      8cmHVZZgST4ao4mIEZMIFu5AeJxorJG/af8Ox3F1ddRowG7UMq2bned3NLDPEWwTALwhlYWF
+      DhYVOanzKcSZdVyWFc2kdBvFTQH+sbqaa0+IZULncDWwwh3kllXVXJYdzfhOVkocAZ7Z3sCm
+      ai9pNgPX9I3hxGQzQsC9G2sBuDw7mkc316HXaLhneAJba/w8u72BEmeAKKOOGd3tnN8zCqNO
+      3in+VkUfvYvBaqPvldehb27S0RmNxPXp1yqfv6mRuh1b6Tb9LNRQiL2fLsTf2EBEXHybdWo0
+      GiLi4ul14WU07Mpj76cfEpvVB62+9bmkhkJUrV9DTFYfOp98KpVrv8Oxby/xffujBALsfOkZ
+      ImLjyTznQjQaDYrfz44XnsbeuQtdp51FoKmRvZ99RE3uevRWGxlTppM0dARanY6ylUupWLWM
+      nCuupWzZEup35XHCNX8j4HJS8tlHNBUVABCT1ZfuM87BHB9uevLV17Hvy4+pzt2Azmgiof8g
+      gh4PPc+7BL3ZjGNvEQXvvo6nohxb53R6nn8JtrTOR+KrOeaptRXoEjuhtUaCRoPWasfUd1i7
+      eTUaDfrENAy9+hEszEME/IdcrzFnCMGCrfg3LcN8yjk/Ww6hhAjs3IQhvRcRg8fhyNuAUlmK
+      tnsOwu/Ftegl9J0zMQ+fBBoNqs+D+6MXMWT2JWLIOJTGOnyrPidYvBOtNZKI0adhyOyLRqvF
+      u+YbQvt3Y5l8Pv4136DUlmOdeSWqowHf6i+Pz4fA1d4QADZj291r9KtsqPIxo3skdw5NICfW
+      xPUrKtla6yPFasAdVHk9v5GAEm4LXl/lY1O1l3S7gSpviDnfllPtCXHboHi6Rxm4emkFO+r8
+      CGBXvZ91lV7+tqKKT4qdqAIq3CGuXlqBzaDhjiEJnNMjkrw6P+6g+kcekuOSUFVqNm8kcfCw
+      lot//a48ajZvpGbrJgKOppa8jqICgm4XsTknENenHwGXk8bC3T+5foPVRnz/QTTuySfocrZJ
+      99XV0FCwi8TBJxKZ0Q1TbBzVm9YhhEBrMGCw2Shd+hUBpwMAd0UZFd8tJyIhCcXvY9vT86jd
+      mkvmWReSOHAI2599nOqNa8Prrq2hLm8be959g4J3XkcNBgFoyN+J3myh53mz6D7zPGpy15O/
+      4AXUUIig28WWJx6ifNVyMqacQfczz6d2x1aqNqxGqAruinJW334jETFx9J41B41Ox7q7biXQ
+      zr51BMbswfg3r8C7/BOUmnKE+OnfpFAV1KZ6NGYLGt2h7521ZhsRIybjy12BWlf9s+VQm+oJ
+      7d+DIWsAupR0tJExBHZvRggBBhMavQH/xuWIgA8ApXI/gV2b0MbEo3pcuN59ilDFPiwTzkLf
+      pQeu954hVJIfXnd9FaG9+Xi+fAvvqi8QigJAaF8BGqP5+KgBfN/O71cE5e4Qj2+p46Q0Czmx
+      pu+f6bVItui4b0QiBY0BHH6FfvERLMhvYme9n4EJZs7vGcV/N9Sw1xEgM8rI53udjEixkB5p
+      4MNCB1UehZdPTiM90sCoVAvrKr18XOwkO9YEwHflHqZ1s/PVGel0jTRQ2Big0a+QE2diSFIE
+      doOW83se+apdR6CGQgQcDoz2g8ezeNF7uCvLaSraw4n/vo+koSMQItzkY01Nw5qahlBVrClp
+      VG9cR9KQ4Yds39doNJiiolG8XhS/r016Q/5O1GCQ2N45GOyRxJ8wgJrcjfQ4+yIMViuJg4ex
+      97NFOIoLSeg/iLrtmzFYrcT2zsFRXEjdzm0MvfM+YrP6IBQFR0kx+7/5ksTB4btQT1UFDQW7
+      OPHuB4jJ6oNWp6PLxFPx1lTjqa5EazAQ3SuLhl15hHxeGvfk07BrB0P/fV9LDahu+xZ8dTUA
+      lK34FmNUNNmz/4JWryc2qw/fXHIWNbkbSDtp/O/99RzzzGOng8GAb90SPMsWoU/JwDLhTPTd
+      c1ra34XbSXDPdtBqCRZsJVi4Heu0y9DoDT+5bmP2YHyrF4drAeNn/GTe0L4CUEIYuvREY7Fh
+      6N6HYMFWxPiZaCMsGHOG4N+yGqW6DF2n7gR3b0UbHY8+tSuhfbtRKkuJvPIu9CldMPTqR6i0
+      EH/uCvRds8LrrypFY48m6qp/o0vrhkarxTRkHGpT3fERAPyK4KW8RiKNWuxGLbOyojmvRyR2
+      o44mv9Iqb6krxN9WVFLcFCDSqCMkBNWeEI6AikYDJ3ex8ujmOhbvc3FmZiQbq338Z1gCBq2G
+      gsYApa4gF311AJ02fILkN/iJN+tprjDQN97EI6OSSGx+6JweaeCy7Gie2trAyzsb6RVtYk6f
+      aEamWNDLFqDfRKvXY7DbW+6wAQb/cy4A3865oOWzgNNBzZZN2Ltk0LArDxBExMRRs3kjAWcT
+      pqiYdtcvhCDgdKC3WNA1v/nRkqYoVK5fg8Fmw11+AG9NNQarDef+vbhK9xHTOxt7l65YklOo
+      zt1AbHZfqtavIb7/YEzRMdRu3YSvvo6tTz6M1mgEwFtVSUR8QkuwMUZGccI1fyO6ZxYajQah
+      quz78hMKF76DLiICrcGAr7YGjV6PCAXx19eht1iwpnZqd388leW4K8pZefNfWh0b5769v/zg
+      Hwc0RhOWcTOIGD4JpWwv3tWLaXr+P0RddReG7jkAKLXleBa/BVodutgk7BfdjKF7dri9+Sdo
+      zVYiRkzG8817GPuNPGQ+oSoEdm1CY7ag1FagNNahMVsIVZaiVB1Am94TfafuaK12gkU70CWm
+      Edi9GWP2YDRmK0ptJUpjHc63Hm+plSg15ejTuoESbgnRRsVhO/Mq9Mmdm7ep4lv7Dd5lHx8f
+      AeD7h8DDUyw/m/ejIgeFTQHentyJXjFG6rwK4z7c15KeatUztaudRUVOYkw6zHoNJyabATDr
+      tSRb9NwyKJ7IHzQvJVr0NMcDOtkMxEYcfIhk0mm5fUg8F/eOorApwMI9Ti7/ppwPT+tMv4TW
+      FxXpl9FotcSfMIDqjesIeb3hN4Da4dhbhKe6Co1Oz85X5wOgBgJ4aqpw7C0mof+gdpcLedzU
+      bNlIdM+sVg+UAXwN9dTv3IZGqyP/zVfCH6oCoSjUbN1EdK8s9BYLKcNHU75qGSkjRuPYt5eu
+      085Co9WiNRgxWG10m3EOloSDrwbqrdaWYGOw2bEkJbfcjfob6tnzwdt0mXgq3Weciy4iguJF
+      71O06L3wshYbIZ+PQFMjEbFxbfZHqzdgS+1E9qVXtfrckpz6c4f6uKaNsKDtnoM+oxcND1xH
+      YMf6lgDw/UPgn7vjb0OjaVUL4BDNS6qzkeDeXaDV4vk6/D0iVFAVgoXbMXTpgcZqx9B7AIGd
+      m9B36YnaUIOx9wA0Gg0avRGt1Y5l3Aw0toMvH2itNmh+wUFri0T7g9dKhbMR79JFRAwZd3wE
+      gF/CExKY9VoSzTr8IcHaSi/1voO1BK1Gw5mZdt7b08Rjm+s4vauduOYL+tCkCJ7cotLkVzil
+      ixWDVsM+ZxBXUOVQ9wMHXEEKGgMMiI9gfCcrMSYdS0rd1P+oZiL9Ot1nnkfZ8m/Je+kZep0/
+      K/wWUCDQ0tYphKAmdz2RXboy/P7HWt79DzgdfHfb9VTnbiC+38BW6xRCEGhsoOjjD/CUl5F9
+      2dVtHgA3FRag+P2MfOBx7F26hpdTVbY88SDVG9fRbfrZ6CMiSBg4lL2ffkTJpx+iN1uI7tEL
+      gMiMbujNFrxVlaSNGocuIgJffS2+2tpDnkuqEkKEgkTExKEzGvFUVdKwe2dLenTPXkTExLL9
+      uSfoNv1sgi4nFWtWtJQ9JqsPJYs/RaPXE5fdF4HAtX8fovlOsaPxLPkAY9YgdEmdmt/yKUe4
+      mtAl/D4BsaUW8MWbCFXB0C2nTR7lQDEiGCDq6rmt7tBd7z9DID8X8+jT0RhNGHOG4Nq6Gu93
+      X6KNjkeX3AUAfaduoNWiOhuI6DMU9AbUxlqE29FmW98TqgJKCG1kTMcLAKem2/ig0MGpH+8n
+      0aInzapH/6Mm4OxYEwMTzXxb6mZaNzva5juwYckWrj0hlvs31vLcjgaMWg0qcE6PyJZnAD/m
+      Dqo8uLEWV1DFoNXgDKiclGZhgLz7/13Yu2Qw5I57yXvx/1h1y18x2O2gquitVkyxceG7+NwN
+      JAwYgt58sIZosNmJ7zeQmk3rCJ5zIQBBl5OND9yFzmRG8fvQmUz0u/4W4nJOaLVNoapUbViD
+      La0zlqSUls81Wi1Jg4ex9alHcJcfIKpbJvbO6VhSUti3+DMyz7mw5RVRa2onsmZdwe63XqX8
+      u+XoTCYQgri+/YnK7NnuvkbExJE6ehy7Xn+RfV99hik6GlU5eGcZERvPwFvupHDh2+x5/01i
+      s/oQ1TUTV1kpaDSkjhpL7dZNbHrg7nANQasFVdDzwkuxderyu30nfxZKbQWOBY+gNUWAVovw
+      eTH2PRHToJN+nw18XwtY9QXBPdvaJAtVJbBrE7qEVHSxiQcX02ox9h6I64PnUGor0KdmoE/t
+      isZix79hKdZpl6IxhWu7utQMLBPPxrvsE3wb/odGbwQhMGYPxpzWrc02AbT2GIz9RuBZ/Daa
+      8vJyAWCz2bDb7e0ucCxr8ivsrPeTHWsiyqRrkx5SBdtqfcRG6MiINCKEoNQVosQRICZCR/dI
+      Izvq/aRZ9aTZwtU8VQjuXlfDxiofH0zphMVwMEIoqqCoKUClJ4RGo6GzTU9nuwEtsKsh3JEk
+      K8Z48CGSAEdAoaAxgDuoYjdqyY41Yf5x1PmTqKio+Mn0lJSUn0w/UoJuF46SYtRAAK3BgK1z
+      OsbIKNRgkKbC3ViSU4iIbf3Kp7euBm9VJVGZvVB83tY9gc1m7J3S0VutbTrkCFXFUVIUblLp
+      nN4qPehx4yguxJ7eFaM9EiEErgP78dXVYO+S0aoMQgi81ZV4qioRIvxcwpqahlavx1tTjbe2
+      hugePdH+oPlB8ftx7C1CCQawd05HDQZb8n3fBtxy7qkqWx5/EG9tNcPmPoTWYEBVFJwlxQSc
+      TWh0emxpnTDFxP2hndecTicul6vdtD/yOiSEilpXhdpYhxAqWlsUuqTOLS8FhKrLIOhHl5oR
+      7tD14+UP0RNYa49GFx3//UbCbfsNtejiklr1BA73EN4HegP6xLRWzxVUnwelvARdcme0FjtC
+      CJTK/aguB/qUdLS2yFbrUeuqUBrDr6HrouLQxiWh0epQ6qpQPc5wAPlBnxcR8BOq2PfnDwC/
+      t90NftZXeXloUx13n5jAzO6RP/e8p0M5VgOABL66WvZ88FbLW0kN+XkULXqf7EuvIv3UqcdM
+      D+VjJQBIx1lHsN/Dl/tcLN7n4u8D45ja1S4v/tKfhsFmw96pC/uXfEnQ4cAQGckJf7mBlJFj
+      jpmLv3RskTUA6ReRNQDpt5I1gGPHn7MhWpIkSfrNZACQJEnqoGQAkCRJ6qBkAJAkSeqgZACQ
+      JEnqoI6r10AdAYVvS918sMfB7UMSyIkL984NKoIV5R4WFjooaAiABgYkRHB5djS9f9Bp63uq
+      EGyq9vH+Hgdban2EVEGPaCOXZUczNMnc0jP4gCvIazsbWV7mQauBk9KsXHtCDHqthltXVZFX
+      33bM8BOTzfx3WCIGORfAcUuoKrvfepWqDWtafZ44cAi9L5rdqkOOJAGoHieBHevxb12NcDvR
+      xiVjHj0FfXpPNBotQlUJFuXhW/UFqrMBQ0ZvIk46/WCHs1/puAgAQgi+2u/mvg21bKnxodXA
+      X/sdHPzIGVRZkB8eiXNGdzsBRfDSzkYu+qqMhad1IiPS2Gp9IRXe3N1EhE7D3/rHodPCR0VO
+      LlxcxtuTOzE02UypM8hl35Rj1mv4a79Y9FpYW+mlwa/QyWZgdk40jsDBbvr7HEFu+a6KsZ2s
+      6GS967imBPxUb1qHLa0LXSae2vK5KSY2PPyCJP2AUEK4P3kVpWI/phMnoItNwr91Nc4F84ic
+      8y/0qRmEivNwvfkYpsFjMQ0Zi3fZJ4TeehL7rL+HJ7T5lY6LAKAI+LjISXqkgbN72HlgY12r
+      9CijlvnjUojQtx7B84zPSilxBNsEAIMW7huRiFmnaakd9I4xsWS/mx11PoYkRfBGfhPOoMJr
+      p3RuGULi1PTwJNAajYaBiQdHplSF4NHqeiKN4bkAtLJTznEt6HLhq68j49RpJAwYfLSLI/0J
+      GPuciGHqpWit4T4QuuTONOXnEty7C11iGt6Vn6NL64bllHPRGE3oouNpmv8fggVbMQ0Y/au3
+      e1wEAJ0G7hwaT7xZz6Zqb8vQzC3pWk3L+P1BRbDPGeS1XY1kx5roHdN2EDeNRoOlebB+RRVU
+      uEO8kd9EpFHLiclm3EHB1/tdTOhswxlUWVHmxqTTkh1rxG5sW72vdId4M7+RM7pFkhllbJMu
+      HV/8DfUEXU78DQ3UbNmIPsKMrUtGy0ikkvRDGp0eU5+hLX8LIcKjhPq84TGGPE5CB4oxnzQV
+      jTF8vdIlpqFLSCFYuANj/1G/uqf3cREANBoNqbafHq/bHVS5dVUVW2p9lLlC9Is38dz4FJIs
+      7R8CRRXcu7GWb/a7qXSHSDDreG58CtmxJqo8CpWeEB8XO9hU7cWvCKo8IbpHGXlqTDJdf3CR
+      F0Lw6V4X9X6Vi3tHtQQi6fil0WqJ6t6T8tXLKV+1LDzpTHQsfa66jpjeOXJYBumQRMCPP3cF
+      7i/fwpgzBEPPfqhNdQi/F23MD9r7dYbwRPauxvD8AZpf91zpuAgAh8Ok0zA7J5pqr8L6Si9f
+      7HPxaG4d/x2eSExE24On1cBZmZEMTzazo87Px8VOHtpUy7zRyWgIPye4oFck1/WLJTZCR16d
+      nwu/KuO5HQ3cPyKxpZmnzqewIL+RKek2suPaHzJaOr5Ede/BqIeeAsIPhN3lZWx+/H7yXnyG
+      Yfc8LGsCUruUuircny0guGcbESMnYx57BtoIC2pTc5O2+vvPI95hnkjpteF2+cnpNu4cGs9T
+      Y5L5rMTFV/vbH5NEo9GQHWtiYhcbfxsQx2sT0yhoDPDqzkbsRi2xEVoEEBehQ6vR0CfOxLAU
+      M9tr/QSbhxQWAr7Z72a/M8is7CgM8u6/w9Fotdg6dSZt9Hjc5QcIOg89UYfUcSl1lTgXPIxS
+      XYZ91q1YJp2P1hy+UdBGWNGYzKhN9T9YIIjqdqC1RUM7Q1Ufrg4RADwhFV/oYPTUaDQkmnUY
+      teAMtI2qfkXFHWz9eYxJS6RRS6NfwW7UMjrVyjf73dR4wzNP+RRBtUchyaJD13z37wwqvLKz
+      kTFpVjkBTAfirign4HK2/C1UBXdlOQarDZ2p/WkrpY5LKArebz9CdTuxX3wTxh59W+YkANBY
+      7eg7dSNQsBURCL9arlSXodRUYMjs85uaFI+LJiBfSGVLjQ+fIsir9+NXBLk1PvyKINWmp9oT
+      4oGNdUzJsNErxoQvpPLariYijTrGpIVnifqyxMWz2+t5aGQSOi38fWUVI1IsDEyMQBB+y6jS
+      HWJGZiQ6jYY5faJZVubmuuWVXJoVxfoqH3l1fp6fkIK++U5/RZmHnfV+/jkkHpN897PDqFy7
+      irLlS+h88qlYU9Ooz9tG6bdf0ev8WRgjf/0re9LxSXicBAq2oE/ugupoIOBobEn7fhIZ8+jT
+      cb75GJ6v30Wf0Qvvsk/Qp2Zg6Nn/N237uBgOutId4sYVlVR62s5tekZ3O5dmRfNFiYvP9zqp
+      8ITQacITvV/cO4qe0UYCqmDW1+W4QyoLTkkjQqfh21I3i4qdlDQFEQhy4iK4uHcUgxIj0Go0
+      CCEoaAwwf0cDW2p8pNkMXJkTzYgUCzqthpAqeCS3jkpPiPuGJ7aaVezPTA4H/fOCLidVG9ZS
+      tuJb/A31GKNj6DLxVJKGjEBnlG+ByeGgW1Oa6nEvnI/qaGiTZjpxIubhExGqSqh4J96Vn/+u
+      HcGOiwDwW22o8vKP76p5emwyWYeY21cKkwFA+q1kADh2HB+3pb9RSBXMG50kL/6SJHUox8Uz
+      gN9qeIrlaBdBkiTpDydrAJIkSR2UDACSJEkdlAwAkiRJHZQMAJIkSR2UDACSJEkdlAwAkiRJ
+      HZQMAJIkSR2UDACSJEkdlAwAkiRJHZQMAJIkSR2UDACSJEkdlAwAkiRJHVTLYHCBQACn0/lT
+      eSXpZ8lzSPo5gUDgJ9PkOfTHaZkPQJIkSepYZBOQJElSByUDgCRJUgclA4AkSVIHJQOAJElS
+      ByUDgCRJUgfV8hqozWbDbrcfzbJIktQBVFRUHDJNXof+WLIGIEmS1EHJACBJktRByQAgSZLU
+      QckAIEmS1EHJACBJktRBHZ0AEPSwbNlK/MpR2foRteabT1i2aVebz0uLdrNzT8kR3faebWtY
+      +OWyI7oNgIWvPsueCscvXm7nlg2UVtUdgRJJHUF58U4WL193tIvxuyjZvZWXXniBzfklR3Q7
+      m75bwtaC/YdMbxUAHr1tDkaTif97f1nLZ8XrPsNkMjH2gut/8cbXffM+9zz5atsEbx133/0A
+      jtAvXuWv4yjltAv/8qsX99cUcOblN7abNv/hf/Hpii0tf69Z0n4AWLvkkyN+cS78AwNA4a8I
+      AAtffZa12wp/8XIrv3ibPj3S0elNTL/kBvzqL16F9Cfy+pP/YfDgwQwePJjxp5zGs28sQgAV
+      e49CABABzpt8EjvK3b/bKv2Npcz5y99o8gYIKUf2LnjTd9+ybU/pIdPb1ABmzb6cTxYtavn7
+      k08+Zs5VV7fK42qsYcWKFVTUNrZ8JpQQmzesZfXaDXj8QZx1VSxbtqzlX1Fp1cEVRCZz3z3/
+      JtYEfmcdG7bsxNVYw8qVq3B4A/g9Dr5buZLapvBBrykvYXdRKWUlBazduBXlB+OX+lyNrFqx
+      gv0VtS2f7dm5hao6J4015ezas4fVy5axbNlyli1bxoYtOwEI+tysX7ua1es2EVDCV5TGmnK2
+      7y7C46hn5cqVNLh8oPhZtWw5y5eH92PT9t0t2ykt2t1qH+uc/pa06vISVq1eT6C5sCdNmcl5
+      005pVb4De3ezZsOWVvtTeaCYlatW4/S4OVB28JgFPY2s3vB9oFFZv2oZNQ0eAMr2FlB84GBe
+      Z0N1y7H8nqepjhUrV1JVf/DCvWH1SvyKyo7NG8grKOHHtmxYjcPjZ8Pa79hXXtMmHSAU8LJx
+      3Rq+W7sBf0hpXu47apu8zTkE679bjjckOO/K6zlpYPbPbFtQuHMrazZsxtVUR02jhwaPyruL
+      V+OqL6Psu7dYtrWs3bJIx49LbpjLxo0beOuFeXz52uNsL236UQ5B2b4iNm3Kpbr5nK6tPEDh
+      voPnRmXpXsqaa5w+t4PNubnU/OD8z9u6mYAK5fuLqWlwAoKSPfnkbt5Kk9sHQFPpLrRdR5GT
+      am1ZrqmukuL95dRWlLJ1Rz6KGv4BN9SUU3KgklDAQ96ugnAp1RC7dmyjsOQAAGrAzYr/fYs5
+      KZMxI4eRlhgLQGNtJbm5W3D5mn+zIS+bt+8CBMUFeTi9IQp3bcfpDVFXeYADleH9cjvqyc3N
+      pd7haXV0yvcVsXX7ToJK28Ge1VCAvG1b2JaXD+Xl5aK8vFw4HA4x79bZ4q7n3hYj+w8QjQFV
+      CBESp44ZLT55d74Yc/51QgghtixbJJISEsSo0aNEYmKieOPz74QQirhg4kDRZ8BQMfzEwWL4
+      qZeK3Wu/Fn17dxeJaelizJgx4rn3vhYH1YqUyO7CI4Qo3fSFiIxLESf06ydOyFexkroAACAA
+      SURBVMoUmTn9Rf9+/cSQ/tkiJWesCAohFs6/S3RKzxQnDhshunVOEpMvvlmoQoiiLctE56QE
+      MWLUaJGcmCieeONzIYQQ150/Rjzy9Isiu0d3MffxJ8TMkUOFLsIuxowZIy674T9CCCFGZiWI
+      E4ePFP2ze4j+488VQSHE0oXzRVrXTNG37wliUN/eovuJpwvFVy0mDxskjNYoMWbMGHH17Q+1
+      7MV7zz0kOifHiZ45/cSYMWPE2t3VYt6ts0VmVo7oN2CwyOySIi648V4hhBCvz7tVXHfX/Jby
+      9enbXwwYcqLonBwnbnvkNSGEEG8+eZeIjk0QJ510kujeOUXcOu/1lm2pvlqRlthJ1PlV4a3O
+      E2kxMeK/8z8UQgjx13PHi3f+t0188fo80aVbpujTN3ws+59ygRBCiIKNS0Tn1BQxavQokZSU
+      KpZsLBBCCNE3xSgGDR0sRowcJSKtVvHFugLxQ2P6poj+g4eJ0aNGCJstSny0bIsQQojzx/QV
+      X2wqFUIIMWFghhg6fIQY2LeX6D1sqvCpQvznunPFTfe/GP6mC9eIjL4TRKh5v1//YtNPbDsk
+      /j7rdJHUqas4afQokRgbKRYuzW8pT92B3SKnd44obfAJ6c/r+2tOe/8cDodY8MRc8cSCz5pz
+      q+K6i04Xy7aWio1L3hc3zH1CCCHEx688LqbOOFvMmXO5GDNmnFi3s1QcyFslTpl5uQio4SVv
+      nj1TrMorE+V7NovTJp0iLp89R0ycOFGs2LxHCCHEORNHiU8+XyimTjtDLNuUL1586HYxdcY5
+      Yvbll4lxM2YJIYRY+uHL4qv1rX8Xqz5bICZNOV1cfMksMf20SWLO3+8VihBiyfvzxV0PPyuu
+      u/w8cf2dDwnF5xB/nXW2OPfCcL6HXnhf+OtKxKUXniuGjx4vrrzySvHJsk1i3ZKFYuLESWL2
+      5ZeKSafNFPuqnUI0FItR0y4RC196RJxx1vkiv9wpbrhkmnhv0Wdi2tSp4oOvVos9m1eISadM
+      FLPnzBYTJ54qNu8pF0IIseDJuWLsyZPFnDlzxPiTRooFn606WHjFK/5y/nRxwSWXiVkXnS/a
+      BoD5C8W9N1wg3lqyVdQVrhHTZ90ili48GADOGpMt3vgqVwghxJ61n4pO/SYIIdyiV0K8eOTZ
+      l8S63B3C6w3/QL94fZ44/7q72jkFWgeA3iNmCkUVIli1Q9jSB4igogqhVIskUkStCAeAS28O
+      X3j9zmrRPSFK7KjyiWvOGiMefeMrIYQQlXvWisRO/YRPhC80/UedJvZWNjZvLl9Edh/aqgRu
+      l0Ns2bhWLP3f1yIj1ioKG8MBYPy51whFFUINVIr45jJ6SjeJlL5j2j2Zb509TcxfuLTl73m3
+      zhY3P/yqEEKIHUveFX3HnC+EaBsAnnl3mRBCiG/eeUpMm32rEP460SUhWezYXyuEEGL+Xde1
+      CgBCCDFryhDx4ardYvkHz4i7H3xQTL/ob0IoHnFCZk9R71fFF6/PE6dferNQm48lKX2FEEJc
+      PXO0ePWLjeGT96P5YtLFNwkhhOibYhU7q9xCCCH+dfWZYt7rX7Ta3pi+KWL9XocQQohPX3pQ
+      jDn7GiFE6wDgcTvFttz1YunSJaJXik1sLfeLip0rRGqP4cKvCvH8fTeK2x55tWW/DwaAttsu
+      27pEpGWNEI2eoBBCiNnThrYEAL+jQowaOlSs3LKn3e9B+vM4nABw+TU3i/nznxN33XaDmDJz
+      lnD4lVYBwOfziZqKUrFp40bxyF03iUde/FAIoYgbLpkuvs0tFq7KfDH1nCtFSAgx745rxXvf
+      hM//Xas/F5ffHL4pO2fiUPHPe58QnoAihBDipstmiIefeU1syN0u3N5D32Ss+myBuPW+Z4QQ
+      QoR8DnH25DFi+wGnWPL+fHHy5Oniu62FQggh1i5+S9xw1+NCFUIEPHXi9Emni6agEBV5q8S0
+      S25oXpsiLp95qsgraxBCCPHBiw+JeS9/JERDsRg6YrR44sX3hNIc0G64ZJq48qa7RIPLL4QQ
+      4o5rLxDfbCwSQgix+vM3xM33/p/w1haK8aecIaodXiGEEPMf/EfrAOCpEuPHnyLe/+hTsWtP
+      idC3qR8A0884g/98sAilu48pZ0wHNa8lrbSsjIED+gGQOWgIvv2l+LHw7qK3eeq5l3j+obtI
+      Hng6yz54tr1Vt8tgMKHVgFanR6s3oNdqAG2r9imdTgeA0ZZA906R1Ds8lJWWcebAAQAkZQ4i
+      zrefuuZWmBtvu4uMpKh2t+drKOXkk6cyYPTJJETbCIoQoebnETabDa0GMOgxHPYetGaLDHdl
+      1+vaPbwALd3d9QZj+AN3HfXWNLI7xx1ymZNPPpllS5eSULOayTc+xeYVF3Fg51psOScRY9Q0
+      r9eGRtN62+VlFTwx90ZeeTB8DLv1n9CcosNut7Qux4/o9OH1ZGf1ovGtba3SQq5qJo+bRNaw
+      cSTHReJTIKQoJGeNYlQnJx8v3877Hy7msU/uaW/NbbZdXV5J1z79iDK3PW4lm1aTc/LFjOqX
+      ecjjIx1vNPQZPpEb75iA3di6tfrDl+exdGcDA/tkUlHTSGKqAmg566yZvLfoY3w9DUyYcho6
+      oLa6hg2vPc2S98PnWXJG3+a1GLj2xuswG8K/nVvuup/X33yXx+5fhEsbyxsLXsDe/Lv6MW3z
+      9UhnstMlJRaHM9wEM2LSDEac0B2A2poaCnKXc/VV4Wbn1PRU3D5ovcYAtTUNzJt7W8u4PIPH
+      9g6XLiad62af3Sr/7GuuJ9ra/HupqeW1p+/n/eZjk9F3BI1VlcSl9ybBHtH+ITUn8ui9/+CD
+      j7/gtflP0O4VKmfUZIr+9hgLi808+8E95C8+GAAG9e/Pyy+/wv1/v5RFLzxP2qBBmIJNFFcr
+      PPH8ayiucrKyx+MGIkwRFBduxh9S0CHQ6w99Qfw5LpcTVVXZsOQDcsuN9OkSTf9B/Xnz5ZcZ
+      df/fWbXoBdxpg0g2hfN/HzAAMEUg6irZX+sgNdpC4abVhJL68NgjD1KwdTWvPv3AT25bb4rA
+      VVVORYOLBHtEq/2IMEWQv7sAVR2NKto/WQ5LdBdytKXc/sD/MWFgNxavWEeP04e2ynLKpEnM
+      u+E5ulm8/KNrNIO6RfPoy4s45ZRJP7nqXlk9SUubyLx//xXV2/STbwX8mMPhIOAJ8MSzLzJ4
+      yLhWaaU71lJn7cYTjz3M3h0beOv5R5tTNFx15ZXcdvuVGBKGkpNiO6xtZfbrz67/3cQLb4wj
+      1Qa5u0qZ0pzWc+xMnht72MWW/uT6DRvHlRefdsj0JUuWcd2j75AZqfBM6c6Wz4dPnMpDz1zI
+      O3vs/PvxlwFI75qOwdiLf/x1Fpqgh/yiA825Nei0B3+zhSVlXHH9LVj1ClddeCb7ar30SbW0
+      u32vx42iqhRsXsmW/V7+kR7H1h2g0x4MVOkZGZhjUpl7330kRpnZvnkbMTZobLWmCNIzEjhx
+      6kWcN2UkzroqKpsCgIpGp+XHV5Qfrr9rejrGXqfw11kzCHqaKDpQS2yKidqizewsqaRbgpkD
+      FTX0yDm4fNBZQ71q547/PICnOv8Qr4Hq7YzvF0ONsRvJFl2rpLnznmXbZ89iMhqZ+8q3vPLM
+      wwAsfOkRkmJspGYOZvY/78QGDJswFXNNLhajkcff/qbdTR2uZYtewm6J4Iwr7uDpVxcQY9Tw
+      97nzaNr2GRaTkavmvsKCV55pf4dsXbjh/GH0SI5h0iV/p/ewcUTXb8VqtXP3U+9iMunaW6qF
+      IaEXV07JIj0+khl/ubNV2nmXXM6ip/+FyWxj475f/mZMC42JBQs/pHj9Yp595R1i4xPaZEnM
+      GoamYDHB2B7ogbFjR/HUU88zadKEtuv7gX/c8xj7V79DpNlIl14D+Hrt9sMu1uWnD8dsT2Bb
+      g417/3ltq7T0/ifRTZRgtVi57aGXMZoO1pnGzbwE994dnH/JrMPeli0lh/dffpRFbzzPwq/X
+      kBAf3ZL24fN3c+L0OYe9Lun4NmPmGVx77qlceNVNNPkOvkmji4hhxsRBKLE9yUwMP7i98Iob
+      cBWtZuzI4UyedjYrc/PbXee2td8yc8rJjBo3mdQh0+md0v7FH2DHmq8ZO2oE193xCNf/6z/E
+      m9teQ/qMnMLkfkmcd8ZkRowey7Ovf9zuum765118/cZjDBs6lAtmX0vhgdp28/3YFTfcStHq
+      jxg5/ESmnX0JufklGGPSueGyafzlwjM486KrqKh3tVpGg+Dj159l7OjhnHHxTQfnBD6WR+H7
+      8Pm7+aIokhcfvOloF+WIyt24gd59+4PfwWVnTWHoJXO5+aLJR608Y09I5dEvihjYyfyLlhNC
+      0FBeyOgJM1mxeStx5sPsbhJys35LMQMH5lBfVsjE0aN5evEORvduGwylP68jNxqoQFVCPHb3
+      zXQafTHnnjLkV67np333+et8lufl/luvPCLr/yPJnsDHkNefvoekGDtRiZ3xxA/girMnHu0i
+      /SqL33ycTtnDufauhw7/4g+g+rj9mouwGA106zOCsZf+k1Hy4i8dtiZOHTaCIn8SZ0wYfLQL
+      86fwp6gBSJJ0/JDzARw7ZA1AkiSpg5IBQJIkqYOSAUCSJKmDkgFAkiSpg5IBQJIkqYOSAUCS
+      JKmDkgFAkiSpg2p3cB7Nkzvb+1g6ht0zLIFHN8vZto4lI1MsXJ1to8IdPNpFOeoGJlkZmHx4
+      Y0J9L2PslJ/PJP0msgYgSZLUQckAIEmS1EHJACBJktRByQAgSZLUQf1sADDpNEzr+sse3hyu
+      ntFGbhsUh0n3GyZSkSRJamazWBjSN+fnMwIjB/bHaPi18/79cn/E9nRaLScNGYg5wnRY+Q8v
+      AHQ7vNH5dBq4qFf70zC255+D43lmewP+dmaul36bVKueMWmHntDi19AAJ3e2Ehfx0xPoSL/M
+      7o2rqS0v/ck8ihJi7Wcf/EElOvYYDQY+e/5Jzp58MgCXzJjK/HvuaJPPbg0HgJSEeO649goA
+      Tujdkx4ZXdrkHTnoDw4AzdubOn7M77bdXl3T6dszkyljRzNl7Gh0Oh0nDRmEOeIQU0L+yGHN
+      0ZgRaeCOIfF0sRu49bsq/tY/jlSbno+KnExOt3Hnmmpm50SzrMzD8BQzy8rcPD8+lTWVHuIi
+      dNy3oZYHRyVR7gqiCrhzbQ3ZsSYGJkZwQ79YzHotb+5uIifWRI03xBnd7dR6FQYkRHD7mmp2
+      NwR+00HqiOxGLZnRRmJMOsZ2sqLVQJ1PIcakY/E+F+M6WXAEVNJsBp7aUsfsnBgcAZXlZW5G
+      p1kw67SUOIK4QyoHXEFCqiAz2kSUUUuFO8S9IxIpbAyQEWnggY21zMqKxqDVYDfquHttNc6g
+      erQPwTGnvGg3W5YtJrP/UFYtepuzb7qLJW88T3RiMvaYOF664zrSMntTuHk9F9/xEC/feT05
+      I8dRuHkdVzzwHEXbNtJzyAgWzL2Z7v0G425qZMrs61n4xH+JTkhGo9VwxrX/ONq7ecQU7T9A
+      55RkNBoNdquFqrp6UhLimX3ODB56/lVuu/JSXnzvIwBOGjKIgdm9OWvyyXh8Puobmzj/uqto
+      cjjp1S2DR158rWW9F06bQkpiAka9ng3b87CYI1i7eRuzZk5j2+4CBvXJxqDX89SCd7j35r+y
+      v6yC5975gPrGplbl69o5javOOwtFVfjgyyVMnTCGhsYmsnt05+EXDm6vf1ZPlq7bwCsPzGX5
+      +k306ZnJP+c9yW1XXkYwGGJ17ha+XbO+zf4/dOuNvPT+R1x1/tk88dqbzJg4nm35BUTZ7QzI
+      6U1cdBQut5tIm5VZZ5xOp5QkHnr+Varq6plzzgxSExPYuqsAvUFPVveueDzew3sGUOII8t8N
+      tUSbdLiDKgdcIZwBlYEJEXxb6mZkqoXuUUa21fpalslv8HPP+loMWg2ndbXxbkETz25vwGoI
+      b3JnvZ9ttX4ezq0joLauAagCXt3VyDsFDlIsv34eYQkEsPSAmw8KHWyq9vJJsZMkix53ULAg
+      v4kPCx1kx0Vg0Gl4u6AJZ1BlvzPIXWurSbbqOeAKkhNrIjvWRG61t2W9tV6F+dsb2N0QoH9C
+      BM6AyrzcOrwheeE/lKT0bjRWV1JeXEBq914Ubl5Hek6/lnS9wcCYsy4hZ8RY3I5GLPZITrn4
+      apIzMgkFDt4EpXTrwdSrbkYJBdm+aglDJk1nzDmz8Hs9R2O3/jCqUGlyuejZNZ2yyqqfzLti
+      wyZyd+bzweIlB5dXVd774mv+7413GTloQMvnxaUHCAaD9MjowsqNuQzMzmLYgBP4etUapo4f
+      g9frIz01hS6pyVgiTDz4wqvUNzZhs1i47uLzGNY/PMn85NEjePat93j4hdeYfvJYVFXlg8VL
+      +PR/y0mMi2lTxur6ep5/dyE19fX0692TlIR4PD4vE0cNB6BHRhduvPRCOiUnArB7bwm9umaQ
+      X7yXgdlZ1NQ34A8E8fh8rN2ync+XrWLtlu04XG5eW/QZ+ysqibSHm+8Nej0btuWxZPU6Rg8e
+      gN8foHt651/+EPjkzjYEgg+LHAhgeZmb0zNslLlCHOq3X+tV6GwzEGnUommnud+vqJh0GrpG
+      /XHVsY5OowGDFnrGGKn3hQN6vU+hya+QZjWQYNZj0GrYWecnLkJHms1AUVP7NTFPSGA3arEb
+      tfJ5zk/Q6Q0YIsw462tJzzqBjV9/Sma/3zZtoS0qlvrKcnwuJ0Ic/02pm3bs4spzZ7Ju2w4A
+      goqCXqsjPja6VbNHUFEwm0xota0vcTqdlgHZvTnQHEDMESbOmjyRVxZ+jMfnw+cPUFZVzcCc
+      LHYUFFLf2MR7X37DLQ89TmVNLRXVtShKeA5il8fDU6+/w9ot4Tm2q+vq6dU1g66d0qioPrx5
+      fb/X5HRRtP8Aj73yJs+99T4Ae0r28/irb3Kgsrpl3/tn9WLrrgIG9smioGRfy/KhUAhLhAmt
+      tv3fXyAYorKujpASorqugXe/+Iq7n3wO3c0333w3gNFoxGQKPziYu66m1cKKKtjdGP7xf1Pq
+      YnSaFVdAZXdjgILGAPFmHV/uc9PgDx+YPY0B/IqgqCncA3LxPhf9EyLIjjNh0ev4ptTdsu5d
+      9X72OoKcmRlJXr2fgoYAjX6FoqYgfkVQ41VoDMi7yp8zvpOVNZXeVp95QoIKT4han0KdV6HJ
+      r1LnU2gKqAxMMJMdayKv3s/yAx4UAXsdAaq9CkFFcEq6jXf3NFHuDqEI2O8MUtj8fZa5g3iC
+      gr2OIIqAHXU+FBXGdLISG6Fn6QF3m1pdR9TFbmBwghHXD5rDLPZIbNExdO0zAJ/XTc9B4bu9
+      mMRkjGYLyRnd0ep0LX+ndu8FQHyndLQ6PUlduqE3mkjs3BWAvqMmsD9/B+XFBQR8PnKGj/nj
+      d/QwpNiMpNiMALhcrkPm++F16PFX32yVpgrB+q07sNusrN8aDgC7CotJjIslPiaGnYXFlJRV
+      EAgGKdy3H5vFTO/uXckvLqG+sYmBOdlkde9GRU0tX61cDQKKS8vQajT06ZFJbt4uikvLcHu9
+      JMXFsW7rdnLzdjFz0gQ6JyexfXchgWCQ4tKydsu+e28JA7J7k5acxBsff46iKOxrLk99YxMO
+      l5vSisqWzxVFpWh/+NnP5rx8tFoN08aPobSyipr6hjbrr29yYI4wsWH7TiJMRjZu34k/EKTJ
+      6WJ38V769srEaDBwoLKKfeUVBEMKByqr8fr8AFTU1NLkdFG4v5TTxo4mNiqq/Skhf++hILpF
+      Gbg0K5o0m56X8xr5rsL78wtJv8gvGQpCp4F/DUnglV2NlDp/+zAF0UYtF/WOJsWmZ09DgNd2
+      NSIv/3/MUBA1B0r47uN3aayuZOQZ59FjwIlHbFu/xQ+HgjjcKSF/76Eg7rj2Cl567yMqag59
+      dx4bHcWtc2bx6CtvUF1X/7tu/1j0hwQA6ciTYwEde+RYQAcdCwFAakt2BJMkSeqgZACQJOlP
+      oWunNK4+/+xf/Q79L+kk1lH87DuWEToNtw2ORwtEmbTMXVfDfSOSCKqCLTU+Xt7Z2JI3wazj
+      q+lduH9jHSa9hmHJZt4tcNDoV+geZWRRsfNI7ov0A5lRRs7KjMRq1FLYGODzEifXnhBLUBGs
+      qvCwoiz8ymC3SENLH4Cv97sYk2Yh0aznuR0N9I0zsdcRZGe9/yjvzfFj2Xuvsu7LD7n+qTeJ
+      sNp45qbL6dwrB3tMHOPOvawln7O+jseuOZcpl19PMOCneHsuQ06ZjsUeSc2BEgaM73jNI9dc
+      eA5zn3qOQPBgk9q4YUPYml/Q5p389nzfSWzD9rwjWcw/lZ8NAD5FMHddDckWPXOHJTAy1cKy
+      MjfvFTh4c1IaC3Y1Emp+4nddv1hezAsHhO5RRm5fXc0VOeH3X/VaSDTrqPYqR25vpBaFTQEe
+      3FTL8BQzAxPMjE2zYtJqaPAplDgO/oBO72rHGxI0+hXcQRVnUGVDlZNhyWaSLXrizDpKHAE8
+      IflY9/cw9pxL2bdrGwABn5eYpBSmXf33Nvm+fftFRs+4EICaA/uYed3trFj4BmhADYVw1NUQ
+      GZfwh5b9aOqR0YU+PTO59MzpmE0mVCHYs3cfnZKTyC/ay2VnTichNgZFUfh06QpumTOL/OIS
+      FFVh4ZdLuOnyi6msrcPt8XDOlFPokd6Z6roGXnjvw6O9a0fVYTUBjUmzcGP/WAobA6yr9DKt
+      q507h8YTbdK1vHc6ODGCA64gNc0X+OKmAPcOT8Rm1JJo0fHeHgdzctp2hpCODJ0Gzu4RyZQM
+      O8WOAFaDhlUVHj4udnJpVjTN/fGwGLR8VuIkt8bH6V3tRBl1nN7VTqJFj0mnodQZYlTq7zuk
+      hBQmVJWouAQ+fPJe3n90LkKEXxctydtCTFIK9pg4ABLS0vnoqfvwe90462sZMmkaKz9686dW
+      fdzZU7Kf/OK9PP/OQoKhEJt37uKT/y0HwGDQc/LIEwkEgwzMycJqNpO3p4inFryN3WJhytjR
+      zH9nIQs++hRVFQSDQYxGI7v3lhzdnToG/GwNIMqoZa8jyL/WVPPyyakYtBquWVZBpEFLtElH
+      lFHL2DQrrqBKitXAyZ1N+BWVOd9WsKTUzfhOFhLMsjfvHy3Joufr/S5WlXu4rl8sSw+4yY41
+      UdAQQBXQPyGCkAoljgC9oo3scwbxhlSe3d7AyBQzAugff3jjiUi/jqKEOPG0s4iMjeflO6+n
+      qbaGws3rMFmsNNVWs2vdSgxGI5fc9ShZw04if/0qnA3yTS+A0oqDPYEVVaWmvoEX3/uIDxYv
+      IdJmbZW3vqmJLqnJHKjUoNVq2FlYzBfLv+Ph225k/bYd+Pwdd6iZw2oCOqeLlRSrnvk7Gmjw
+      K1zVJwaNBu5YU90ytMOX+1x8uc9Fdmy4E4dfEXSLNPJhkRODVsPVfWJ4Ma9t5wbpyBDA+T2j
+      0Gs1zN/ewD5nkJAKk9JtvJTXQLI1/NUvLHQwtaud7FgTb+5uQq+FkAqbqr3U+xSGJJlZWOg4
+      ujtznAgG/Hzz+nxiklL55o35jJpxATvXLKOptobpf7kFnS48yF7fURPoO2oC5UW7ATAYTdQe
+      2MfACVNQQkGWv7+gpXmoI1m8YjWKorB2yzbqmtv8N2zPo8nhYt6LC7jszGnsPVDG2i3bWbtl
+      G4qisHz9JtZu2c55p0/GaDCwbusODAYDV557Ju998XWHvviD7Adw3JD9AI49sh/AQbIfwLFJ
+      vgYqSZLUQckAIEmS1EHJACBJktRByddzJEn6U7Bbrdx57RxcHi/3PvMi008ey9TxY7jqzv+2
+      6hyWndmNW6+4lPe+/JrE2FiaXC58Pj8Otxun2822/D1HcS+OLbIGIEnSn8JZkyfw2dKVqEKg
+      qCoffv0/Gp2tRxfQ63RMHT+Gz5auACA60s7q3K1069yJQX2yOWXkcE7o1eNoFP+YJAOAJEnH
+      vC6pKfTP6o3daiUlIb7Nu/7fm/j/7N13eFRl2sDh38wkM8lk0nsvQIAQkiChN6mioCAKKHZc
+      G66K69rWXetaVl10lU+lSFdAUAKIEIrU0EISkpDee0J6n2Ta90cgIdIE0mDe+7q4yMyc8szJ
+      yXnOe942egQ6vQ53Fyf8PD04ERvPIzOmoTfokUmlrPx5K+OGDu7i6Hsu8QhIEIQer66+nvW/
+      7sTOxhpomSR+aFAgDrY2DBk4gKLSMu6ZOI6wPfuprK5m2LlpGk/GnqFBrcbSwgI7aytGDQ5p
+      7UMgiAQgCMJNoKK6huOn45GbmpKQmkFNXcusgv+3biN6vYHyqip2HDhMdkEh2QWFpGbnAud6
+      CZdXkpCagVQqZWDfPiSmZ3bnV+lRRAIQBOGm0azRkFPY0pHs5Ll5gc+rrm2bavLC0UELz56b
+      4lanI+qM6OR6IVEHIAiCYKREAhAEQTBSIgEIgiAYKZEABEEQjJRIAIIgCEZKJABBEAQjJRKA
+      IAiCkRIJQBAEwUiJBCAIgmCkRAIQBEEwUiIBCIIgGCmRAARBEIyUSACCIAhGSiQAQRAEIyUS
+      gCAIgpESCUAQBMFIiQQgCIJgpEQCEARBMFIiAQiCIBgpkQAEQRCMlEgAgiAIRkokAEEQBCMl
+      EoAgCIKREglAEATBSIkEIAiCYKREAhAEQTBSIgEIgiAYKZEABEEQjJRIAIIgCEZKJABBEAQj
+      JRKAIAiCkRIJQBAEwUiJBCAIgmCkRAIQBEEwUibdHYAg3MrszE27O4QeQSWXdXcIwiWIBCAI
+      nSjQ1hStVc8qaJvJTdFrNV26T1NTkQB6IpEABKETaXU6NFpdd4fRjtzEBJ2ua2MyMRGXmp6o
+      Z92aCIIgCF1GJABBEAQjJRKAIAiCkRIJQBB6gKKiQhoaGro7jEvKycnpsbEJN0YkAEHoAXbu
+      2EFebu4Vl9m7O5yysrJO2X9ERAQffvghH330EXl5eZSWlrJs2TIAfvzxR3KvEptwcxJV84LQ
+      RRoaGvh28VcolRZMvWsaW7f8QrOmmUcfe6J1mT27d3E6OgY7e3um3zODgof49QAAIABJREFU
+      7WFbGD5yFCXFxVRXVwMG3n/nbTy9vCgqLOTvr7/B5p82UlhYAMDfX3vjmuOqr69n9erVfPHF
+      FxQUFPDNN9/Qv39/Nm7ciFKpBGDnzp2sWrWKZ599lsLCQg4cOIC7uzv33XcfixcvxsLCggcf
+      fBAHB4cOOVZC1xAlAEHoIjqdjsOHDnLPvfdyOiYaADc3N8K2/NK6jLu7ByNGjSLiyGFsbGxo
+      1jSzdvVKho8cSX5+Ps1NzWSkp/HgQw+jVqvJzsoiPj6Ol195leTExOuKq7q6Gjs7OywsLOjV
+      qxdnz55l4sSJDBkyhIceegiAUaNGERoaSmxsLMuXL2fo0KEcPnyYkpISDh48yL333isu/jch
+      kQAEoQv5+vrh7u6BVqtF3aTG29uXUaPHAKDT6/h+2TKam5vRaXUYDAakUil6vR6Npq3jllwu
+      x8zMDLlCjkajQSFXoNfrr7ttv42NDeXl5dTX15ORkYGTkxNSqRSNRoNerwfAysoKmUyGXq9H
+      rVaj0+m4//77USqV+Pn54eHhceMHR+hyIgEIQheRyWT07uMPwJSpUzExMSEy8iQSiQQXV1cs
+      LCzo3bs3qSnJDAwOoqSkBCsrax57Yj6HDx7Aw8MDuUKOf99+AHh7++Dl7Y2TkxPLl3zXLklc
+      C6VSyeOPP86XX37J5s2bWbBgAQ4ODtja2rJx40a8vLxQKpU4ODjg4ODAggULOHHiBNnZ2SgU
+      Cvz9/TvsGAldS1JYWGgAUKlUWFpatrz51fUVJYXu88FwRxbFlHd3GMIFRrkqWTPevlN7Ajc1
+      NbF3dzhSmYzoqFO89a93rrqOhZkCnaap02K6FIVCgUKhAKCoqOiyy114HfK5/a4uic2YiRKA
+      INzE5HI5vXr3wcbGhhdeWtjd4Qg3GdEKSBBuYhKJhH79+3d3GMJNSpQABEEQjJQoAQhCF9Lp
+      dLzw3DPY2tnx4SefAnD27Fn+89GHSKUSbh8/AVs7O7ZvDWNw6BDGT5jItq1beOLJpzotJrVa
+      zRdffIHBYKC6upqPPvoImUxGUlISYWFhNDY2cvr0aV577TXCwsIYMmQIEydOZMuWLTz1VOfF
+      JXQ+UQIQhC60Y/s2xo2fgEzWNj7+wf37mDlrFh//5zO2bQ0jLjaWf/zrHbKyMtn52w7q6upJ
+      TUnptJjMzMx48803mT9/Pmq1urXpZ//+/XnzzTcJCAjgiSeeIDY2lnfeeYfMzEx27NhBfX09
+      KZ0Yl9D5RAIQhC5SU1NDdHQUo8aMaff+iJGj+WHtGr763xfU19URFBzMv997h+bmZvLzchkz
+      dhybN23s1NgOHz7Mt99+i5+fX7vk1NzczJ49e5g2bRrBwcG8805LXLm5uYwbN46NGzs3LqFz
+      iQQgCF2kuKgICwsLln77LaciI0lPS+OHtWuwd7Dns0VfMv3uGQwYOJCRo0bz7gcf4urqyoDA
+      oE6Pq7q6Gh8fH95++20SExMpKSlhzZo1AISHhzN58mTkcjmjR4/mww9b4goK6vy4hM4n6gAE
+      oYv49+3Lq6+/SW1NDaciT+Lp5cWJ48fQaLSsWbUCpdKCv/39NQCyszKZfvcM7OztWbViOffP
+      nttpcZmZmbFlyxZKSkqYP38+dnZ2rZ8ZDAZmzJjR+jozM5MZM2Zgb2/P8uXLmTu38+ISOp/o
+      CHaLEB3Bep6u6Ah2PURHMOE88QhIEATBSIkEIAiCYKREAhAEQTBSIgEIgiAYKZEABEEQjJRI
+      AIIgCEZKJABBEAQjJRKAIAiCkRIJQBAEwUiJBCAIgmCkRAIQBEEwUiIBCIIgGCmRAARBEIyU
+      SACCIAhGSiQAQRAEI3XJ+QAEQRA6y5+dD0DofKIEIAiCYKRap4Rsbm6mtra2O2MRBMHIietQ
+      12qXAJqbm7szFkEQjJy4DnUt8QhIEATBSIkEIAiCYKRaHwGJ2nfhzxAtOIQbJc6hnkOUAARB
+      EIyUSACCIAhGSiQAQRAEIyUSgCAIgpESCUAQBMFI3VwJQFvHirWbOmXTpbmpbN8b0SnbFrqT
+      lvUr1qLuhC2rKwtZv2XXxXtsrOTFBQsoKK/rhL1CxN7tpOaWtt9nXSlrN22/7DrZZ46y8K1P
+      0Bk6JaRuUVtZSkpmbneHcdPKTk/6YwIwEP7zau6fMY3Q0FCmTp/JL7uPdXlgWVH7CA0NJTQ0
+      lBGjxvLKPz+kulEL2jpWrt3cKfsszUvj130iAdyotV+9z1drd7S+jtq3mccWvt/p+63Kimo9
+      Z4aPGMXzr/yTs9WNgJYNKzspAVQVsSHs4gSw7rsvGDXzCdztLXjq/kkcTzkLQFnaSUJDQ9kd
+      mX4u5mjueOA5rvWaHLHvV9LyLpEANv962XV8AkcS4tDAT+EnrnFvXU3LvDtHcyKtDABdfSFj
+      h4a2O6cWPDiVIwmFpEYfZNGyDde09e2b1lJY2Rlnw81nzeJP2ieAE+Eb+XJdOP/6z2IiIyNZ
+      9d0X+LjYtHxoMJCTkUpUdDQVNfXn1tATHxNLs6aJ+NgYisuqMeh1JJ+JI6+o7QTV6zQkxseS
+      mVvYtjODnszURGJOx1Hb0HRRcL0GT+bUqVP8Hr4NRXUaP4btu2iZmspSoqOjSMvOB0DTWENU
+      XGLrH1RjTQWJqVmXjwGorSojOjqaqrrGazl2wnVS11URHR1NSXl163uZKQlU17d0/68sLSQ7
+      vxiAlIRY6pv1lBbmUlhaCRjIzUwlOuY0lbUNF23brtdgTp06xaHfw/FSVLP8x7CLlmmsqyY2
+      JprE1Ez0BkDXRHTUaZr1LZ/rmuo4fSa55YVBT1rSGZLTs9tdpNX1NcRER3O2ouai7WvrSth2
+      NIeZk4YAEkIGBRMfHw9AbGws48ePJy4uDoD4+HhCQkKQnFu3OD+L03FnaNbpW7en06iJj40h
+      t7CUSynOz249XueCJiE2ilq19txLDaej4tAaYM7Dj7Jp7Wr0l9xST2FCcMgAEs6cASDzTDxD
+      xo0nIb7lmOkbikkskBDU1+26tv7r5rUUVYkEcJ7JhS/CtmzhmYVvEdzPFwAXD19cPFo+W/XV
+      e2yLSMXeUkFaViHfrllPfw8l/3zxOcy8vFGZykjNq6CPuy0SUznJKZms3LwDP2sNz//lL9TK
+      rKgrK2TyvBd44eHpLP7339kbW4SDlRmFjab8tn7pJQM0V9kQEtiP9KrKdu+XpkXywPNv4+ft
+      SUFOBlMfWcgLD07k09df5K0lmwjysiX851Wkar3w97S5ZAxnjoXzwhsf4dvHn8qSfJwCx3fC
+      IRbOy4o/yrN/exsPb19ys7NY8OZH3DtxKMsWvc/0l/7HqAAXog/+SkShOW+/+AiL3n+VOx5e
+      yOplS/jLK++wP34H6/fG4upgRWZhI7/9th7FJfYjN1dxW0ggu9Or2n9Qm8f0mfPx8fWhoiSP
+      vqNn8cnrf2HNV+8ydcGnTB3mT9T+7fx4opQvA3z550vPkFSqRaquos+omXz06l/IT43iL8+9
+      gqNXLzQ1ZaDybbeLuBOH6TtkNIpzt1YhwSFsOBkH90/kdGwscx55iiXfbwFmEX/mDMG33QfA
+      Lyv+y9KfD+Fqp6QGW1Z/vxhZfQl/+ctTyKycKSvMY94L/+Lh6WNa91VekMrCV97hk6++oy1D
+      SdixYRmOQx/kiXvHkRd/lI+X7WLjd0GYOPbG27SY5KJ6AlwtOuJX2imCg4LZfeYM3Hs7cfFx
+      jLprNluW/R9aIC85Acd+QVidu3KVF6Tz6gtPc/jEaXoPGsuy//scc0MNCxe8yIn4RAwyBXfN
+      foJ/LZzPy4/NICqjgmdmTwJg095T+J67vy3PSWDha2+TkpmLuZUdTy98k4fuvh1dcx2LPv6A
+      rbsOILd0wNNRxbv/txFfGwMbli5iydqf0ZpY8NSLr/PovZPafY9dm1bwvyVrqWzQMmhgP0bd
+      8zgPTxvFM3On8Mg/vmbdf/+JW+g9vPXsLL745H3Cdh5AbmnP/Odf4eEZE0mM2MF/NkWx+su3
+      AXhm7hQefWcNo9waCZ2xgLuG9ib84HF8Bwzhv59/hru9khVffsCqTTtp1ksZPuU+vnzvbxdE
+      1BLz0nW/oJGZYy7VtC8BnC0txdfPr3VnoaGhLHz/KwAefPZNvln0Ec8u+Cu3D/LhaGTcubXM
+      +XrlOr5ftZa+tk289OF3fP/9Ssb0dyKvoJSI8DBsg+7gxzUr2bRxNTt/WInaAElJSUy4cwbP
+      LXyVn1d+fdFJUFGYwdKlS/ny809Yvnkfk8aPbve5rXcw237ZwF8XPMtLzzzMgf0HkZgomT1r
+      CmFbdwB69uw9xPS7plw2hmXfLub1T5eyYvkyPnzjr9d4mgqXs+Z/77Q+jnnm9U9a31+59Bue
+      fvMzvl++jLXffsQ3X31z1bvR/cdOs27jZu4edxtJSUmMnHAnTz23kO0/r8T0D8s2VhSydOlS
+      vv7ycxYt38wdk/6Q0JUubNu2hYUvPs/rrzzP4QMHACmzZ9/H1q1bAdi9Zw/Tp08nNfIAeTIf
+      Nq1fx8ZNm8g6tJm8Gi0/fL+EOX99l7Urv+e7z9++KN6c7Bx8fNuSQvCgQSTGx6NHR3JeA8ED
+      ByKtykKthzPxiYQEB6FvLGX5zxFs2LyZlWt/ZLgn7D12hvCw9QTd8RhrVn7PxtVf8cPKVa3X
+      +ay0M7z66ls8+/p7+Dhbt4vh/tmz2bo1DAOwZ88epk+b3vqZr58XOedKzD1VcHAwZ86VAOLi
+      EgkKCqa3k4z0kkYSEhIIDg5uXVZrkPL039/l0MG9qHOOk1xYAxIZDz37CgePHGPnL2s5sfV7
+      UkvVfLl6K4N72bFk015OnWq7+AOYWtjxxgefc/zECZZ98ne+/WYpOmDnxhXElRjYsnMf4ds3
+      UVucAUD6qb2s3ZvA+q3hhK37lk3ffUrOBY+WSjOi+HTpFj7+ZjXHjhzEx86kXSly+bff8NBL
+      7/GvFx7htw3fk1QhZ8feQ/yw5HM2/N9HnMn7w83LRSQ8/PybRBw5yG3uJixZswnqCli26RCr
+      f9nJ4QN7eWzW5HZrpJ7czcrfoli2PoyDe35jUG+X9iUARwcHsrOyCPYcyJKNu4nYsZZNUS13
+      3iv++y8SKxUE9vaktKoON53u3Foy5HJZy08yGaamLX+WEmlLbik7W8qZY5E880wUAJ5e7jRo
+      4B8ffM7a9Zv4/P0NNCs9WLdyMeayi7+mrYs3361Yh5+nM6jbirppsYd574vVjB49An1tCTpd
+      S5H3rnvvZ9mjr1NwVyDlFn0JcLfi5x2XjqG4uJLgoL5XOdDCtXr0pfd48ZFpQEsdwFfbEwEo
+      KS2lb7+W4+3SewCKihKuVk36zPMLsTRvOacW/uMD1qxdz9efv09Fs5K161Zid4mTRmXrwqLv
+      VtDfzxMuePpfnJ3Iwn98zPDRY1DKmtCdO4dHTL6HTxfPIbtgLlHZWl4b5EfkzqMUpUbz3LPP
+      AGDl5k1DvZqi4hImhgRftM/z9Do9pqZtf1Yq9344q7NJTk1C5tgbuURKf29rziQlkVlng7+r
+      kubiHCprKnl9YdtNSD+0FJWWcSwykmei9gLg5e6C5tznB37bTJPEmtDAXhfF4DdoHM4Ni4hK
+      y+P3iAS+eO7d1s9MTEzR6XUXrdOTuPoHYVqcRGFtPZkVUvzsFQwM7E98fCIZZ84QNP3F1mWd
+      Pfzo493yOMjeWolep8cgMSM/9RQ/rFpCY7OGeo2Oujo1OJpddp9yMwVH96znmy/S0GrVNNfV
+      owESkxKYPvNJHG1UAJieO93iY+OwsTRn2+b1AKjMpSSl5OI93B+A1OQkBoycQIi/FwDm5u3L
+      qnMeX8CYwS1/C3Fxp7l75ktYWyiw9g1gwvD+xJ1JIsTqCgdJYYm/T8v3vuuOyXz2cwyoXHng
+      jtuYN2Mqnr36ct+8Jxh0wal6JjaOcVPuoZe7IwAW5mbtE8Ddd9/Nh//7FB/nDwjy96a+4fxz
+      cS17D0SxaMNWrHS15CX++Yokb19vLB2L+fd/3sdOJSf29Bms5JCQW8SCl9/ATNLM43PvpbBa
+      Sy+7tnDs3Hrx9NNPX3a7xw8fZMz0B3hm9gQObPuBfYktGVPp4Me4AGveev9Lps6af8UY3D0c
+      Cd99iEenjyQzK/tPfyfh+vT39+fXrVvp9/Rcjv32Mya9+2EFSICKinIaahUkpmaCakDrOlJZ
+      WyE1NTOXxxe8zItmEl58fC4ZhdXY9bJr/dzczu2K50xsZAS9h0zmxQWPcfroLlaGtZzHUoU1
+      M6cM5Z233mbo5GnIpeDt7YOJuS3/eO8jPJ2sSY2PwcVWhYeHO/vCdxPy1P1kZGRetA8nF0eS
+      8i6sZzIhJMSf9Ws3EhgyAoCgoIGErf8B34EhmAAm9m44mpvy8LN/Y1RIH0rys2mWWWJW7I1j
+      sSn/ef8NVHIJp88kIz+31SdeepfauDDe+fQ7Pv/n8+2DkJgw697pLP73v7ANHIujsu3vqrCg
+      gFAn5yv+nrqdiSVB/V04snMHVj4BSIEBgYH8cCyWrMQsHvzHlW/aIvf+zK6oPD795HOsLcx4
+      Zu6Udp/r9ReXO9cv+4JK5QAWffUSCl0pYyafS/yW1mRlZQNDMRh0LfVGgIXKArmFNYMHDwZg
+      8ODB+PR2b92elaUVBTmRNOsMyGWSi/bp7Nz2O7Cysqa4pBgIBgyUFJ/F38oKqPgzR4v8/Dys
+      ra0w6CW8+PanPPdaPfExp/jXP99lzO3jcLNoqWWSK+TUlLevt2r3CGjUtId4euYo/rXwKYYM
+      Gcr/1oUzdNBAwIRZMycx984JPPO3t1Hr/nzr0cET7mVULwvumzaZUWMn8v2mnQBEHd7JPVMn
+      MHbSNPpNmIevnclVttTe+Cl38tvKz5g4dQYxqQXtPrt/zmwSMgq4a9LIK8aw4KW/s2XJB4yd
+      OJUDp5Kuaf/CtXvyhdcoPr2LEcOH8eWP+/ngn68CMHbSJD5+5QkeeHwB+WUXV6yelxR1mNn3
+      TGXk2Emo+k0g2NfussteypDRk0g9vInRt09m98mEdif/zPtnk5qQzLRpdwDgETiKR6cG8+QD
+      Mxk+cgyffrsWHfDo038lbs86Ro8dz6bdRy/ax6Chwzl98kS74n5ISAg7d+4kJCQEgKCBA9m1
+      a1fra0yteeetF/ni7ZcYOnQYz7/yL8pqm5hw70P0sqhj2uTbGTtxKpt2Hm63rweefQ2r8hiW
+      bNx9URwT7p5FYWYS06e3Pf7RNZZxphCCetlf03HrDiEhIaxZu7b1cU/vAQOJ37+FUoUPXtZ/
+      fPjXnkKhICctgR/XruL1V14ipaBtghkfL2/+77MP+O7b/6PsgnYECrmC2JNHWLHsW154+R+c
+      b5Zyz/0P8Pv6r3n48fk88sjjlJwrso6ccCelySf4ZcduIiNPsnHt96QXte1nwPAJOGvzuO/+
+      uTz2yMOEH0u8bLwz7n+An5f/l8+++Jr33nyZxBprxg8NwNrGmozYoyz+5lveeOVFEvPbGk5Q
+      W8znX3zFF599xH+WbOKB2TNpOpvM3Ief5Lvlqzl0JAK9uQOWcknrKsPHTeTEzh/496eL+PSj
+      94iIz7715gQ2GAyc2LWeH46V8PX7L3d3OLecW3EkR4PBQMbpA7z97U5+WPopkquvckX/fuUp
+      xj3xNmMCPTskvmtlMBgozU3k2b9/yvqNq1srpHdv/I64Oif+/uSsbonrvD9zDhVkJLBjXwST
+      ps/Gz80WMPDzD98jd+7H3ZNa6gMLMxOJyqzk7kmjgJYmnoMnzcbNxpSD4TtIL6pk7MQpJJ/Y
+      2/K+rRkNNeVs376DBq2U2Q8+jOpckUqrrmP7tm3U6Uy5Y9Joft1+gEfnP4gJ0FBTQUp6Dr36
+      +PLw9DtY/OsJvCyh8mw+u/fsp0atof/AQYwIDUEmbTt79LpmEhMSsXHy4Icv38Lr9id4cOrw
+      tjht2x5JFeWksuf3w8gtHbjzzqlYWygAAxH7fiM5t4yRYyeQHn2A4Nvvxcu0lNBZC3nvxUco
+      qqhj1O2T6O/nARhIiTvF8ah4DCbmTL5jKu5Otu2Ob05aPHsPHMdvwGAkNTm3XgJ4/+XHOJmr
+      5cuvF9PbzfbqKwjX5FZMAEs//Qc/7U/k40X/Y0h/7xveXmVhKm98tJQvv/wMc5MbTSfXbse6
+      r/jPih28+f6n3Dm65Q66riyPl9/6D//96n9YKS5R2daFbqZz6OjuTew8loqHiz2psScp0Dnx
+      45JPrtqDVl2SyisfL2dAPz/qyovY+fsJVmzYjK+j6saDqsoidM4bnNq98YY3dcslAKFz3Ux/
+      vN2pMDcThbUz9tY9o7llWXEeWlMrXOytr75wJ7uZzqG6ylIOH4kgr+gsdk7u3DF1CpZmV34E
+      BWDQNnH86BGSUjORKiyYMOkOvFw76NGbupKlm/by9COzb3hTIgEI1+Rm+uMVeiZxDvUcN9dY
+      QIIgCEKHEQlAEATBSIkEIAiCYKREAhBuejpdz+7ZKgg9lUgAwk3vUj07BeFaaDSaqy90CxIJ
+      QBAEwUiJBCAIgmCkRAIQBEEwUiIBCIIgGCmRAARBEIyUSACCIAhG6toG4RcEoVMVFRWRnJxM
+      Q0MDEokEDw8P/P39MTO7/GxWQs+k1WoJDw9HpVIxbtw4SkpKWLNmDUqlkr/85S8oFC2zhKWm
+      prJp0yZ8fHx48MEHSUtLY+PGjdx9990MGjSImJgYtm/fzty5c+nbt2NnMBQlAEHoIbKysoiJ
+      icHOzo4BAwbg7+9PWVkZJ0+eRK1WX30DQo+Snp5OVVUV+/fvByA2Npb58+djZ2fHunXrWpdL
+      TEzk5ZdfJjk5mcOHD/Pee+/x8ssv89///pfCwkIWLVrEwoULeffdd2lubu7QGFtLALW1tdTW
+      1l5pWcHIiVEaO09DQwNZWVn07t0bf3//1vfd3Nw4fvw4eXl59OnTpxsjFK5Vv3790Ol0pKWl
+      ATBlyhQyMjIICwvj448/bl1u5syZnDhxgrS0NB544AFcXFywtLSkT58+RERE0KtXL6ysrHB1
+      deXs2bN4eHh0WIytCcDS0lL8gQtXVVd3tWnchevR2NhIU1PLRIRHjhyhuroaExMTPD09MTc3
+      p6ysTCSAm9yxY8dYunQp33zzDfb2bXMDrF+/npiYGFatWkVdXR2NjS1zsTc0NODg4EBDQ8vc
+      lWq1usMfBYpHQILQQ+j1etLS0qiubpn7VavVkpWVRWVlZTdHJlyPAwcO8M0333DgwAE2bdrE
+      kiVLsLe35+uvv+bkyZM899xz5ObmsnTpUhQKBZ988gm1tbU4Ozvz6quvotfrGTt2LDqdjldf
+      fRUXFxccHBw6NEYxIYxwTXriZB4ajQZT06vP0tSTVVVVcfz4cfR6PSYmJlhaWtLU1IRarUan
+      0+Hm5sagQYO6O8wOIc4hqK+v5+uvv+aNN97osn1eymVKAGqOH4vq9J3nxR/ihx0RABQnRpBV
+      1THbjTp2HGOuMjMYDOTk5HDs2DH0ej0NDQ3s2LGjXQWSVqslLCyM9evXt75fVFTEkSNH0Gg0
+      /PLLL6xcuVLcfXYRnU6HTqfDYDCg0WioqKigvr6+daTTjq78E7qXhYVFt1/8oZsTwE/hEcy5
+      axQAxUkRZFd3zHaNPQGo1WoqKipoaGjAYDCQlpaGQqFoN+Jhfn4+w4YNY+TIkURGRqLX6zl8
+      +DB5eXlotVrGjBnDnDlz2L17d5fF3VRbypHI+NbX2fFH2bU/kiYDGDTVHNy1g9jMs10WT3eQ
+      SCSXfC1GPBU6w9X7ATSXsnLJBtS6ejxGP4JvYxRHEwuoMnHir1N9+WzFbpxVDSgHPYk2Zx/z
+      H5vPitUrePiu4SzZcABdfTWjH3mJUHclx7csI6JIT2OjKfPu7MuZxGQ2/BbBI9NGtdtl4qGt
+      HEgsprrRnJeemcjiz1Zg66yiXjmIEU7FnM6tplJvw1PDTfh0TxWuDcn4znoD64SNxFTISM+p
+      4v7yBD74dieO9p7MeW4udp11BHsgc3NzgoKCOHLkCADBwcEcO3as3TI+Pj40NTURHh7OmDFj
+      iI6OZujQoZw8eRJzc3OioqKIjY1l+vTpXRZ3XkEZJhItAPrKFFIbXBk7oI5jUflYNSTTf+wU
+      Mg7to9JnKra3YO2VwWDAxMQEpVKJSqWiqamJxsbG1kpA4eoSTx0mJr+Rh2ZOobk8h/Bjceib
+      1XiGTIKqHG67LYS4iD04hUzExeLPn0SSrxI7MerO9c4wR94d5njJz66aAJpzojmUXc2Ivk4o
+      Jc0kJyegw56c7AxSj2cw5pHXua3qF36qbL+xnOjfya6Gvk72SJqbASUnCht45fmX2L90ETVu
+      oxgYdPHFH+D3/fvBNQB7CyWlqcexHvMIT91WxaKfKtl/8HdsfUOxs1ChQU2v0EnMsbXhp7I6
+      Morr+NvC11i66Euk5ra4qGTU6tTomwH5dR69W1RDQwP79u1j6tSpAGzevBk/Pz8SEhIYPXo0
+      o0ePpm/fvhw9ehRvb+8uial3v/7URJ8GoO5sNd79hqK0NmCWcRyt0gonpSnmflbkVIKVja71
+      rlir1d70d8jnS2darZaamhpqamrafa7X61tbCQmXFxA6BrW05RwytfPi7uneaKqzOJ2vRgbU
+      5sWhdgi+pov/reyyCaA8I4qlS5cyeuod9FUcQo8EmUxKdXUN5q69MJdX4TdoOJtWfkqubT0E
+      hyKrymHF2g1kl6t5eOpYFIe2gMQd2bljPcxNyX+/WUJjow1/s4Hf/7DP3RuXkj9gAGOHBLIl
+      oQl3exlWfsEUblrJulxbmghmTMhADhVrcVJJkfxh/d6WEr5espKs4lqaqirQmStpzE+nrAEc
+      jCgB1NbWsm3bNhISEoCWi8vBgweJiorigQceIDs7m8rKSjIyMli1ahWjRo3ik08+AeCnn35C
+      r9ezZMkS9Ho9fn5+3fId5HKoa9CAVRMGgwWa5joMQH09KD1BJpMhk8lal7/ZK4FNTU2RSCQY
+      DIZ2j4HOv5bJZK09R4U/RyKRUJyZSF6DnNBAV2IORvNrch3jZw4CeFyyAAAgAElEQVQEWupd
+      bvYbhxt1Q62A1MXJrN16kJqKMibPf5Ug5064yqqLWbd2K9U1FfSaPJ+pQc4dvw8jkp2dTV1d
+      HYGBgde1fme24Ig6uJ2olGJcXf0ZP20wR7bspFEPA26/G/vqBH6PzweFPffdNbpd5dWt0Aqo
+      vLycY8eOIZFIkEql6PX61kRgMBiws7NjxIgR3Rxlx+jsVkDR0ae57bYQtJVpnC6xJbSfQ9v7
+      wb3Zuz+O8ZNGIrtgnaudQ7fqIyDRDFS4JqIJX+e4MAFcikgAf07Uwe0U1gBYMWSIK5GRKQC4
+      +YfiZiXB1dWFpvIcinHB276tRGWsCUAMBicIPcT5R0Dnf4a2R0CXSwxCe4PH3c3gC17ffbf/
+      Rcso7L3pmlqtnk8kAEHoAS53kT//nlQqKi2FjteaADQajWhuJlyRUqns7hBuWQaDofXuH9qX
+      BoDWDmGC0JFECUAQehAzMzMkEgm2trY0NTVRW1tr9C1VhM4jEoAg9BAGgwGtVotUKqWwsBBo
+      6dQnhoEQOotIAILQQ0gkErRabevPBoOhdWhgUQksdIbLJoDf1y8msU5JfWUDT7z4VxqTTmLW
+      fyjOTXEs/qWKvz4xtivjFG7AyZMnOXnyJE888QQWFhZAS7PD9evXo9PpmD9/PmfOnCE2NhZr
+      a2sefPBBvvzyS6ytrQkJCbllRqHsyc5XAp8fDVSv1yOVSlvrBi7s9CYIHeXSCUCdwaliF157
+      +X6q4sL4aW8ElbvXYeifwIPTBlNTlMKPa7IJnToHP/NyNm/Zg2PgWCb2knEsq47KijrumjCs
+      i7+KcDlDhw696L34+Hgee+wxGhsbSUxMpKysjGeffZZ9+/ZRXV1NYGAgkyZN6oZojdP5C/35
+      UsD5EsCF7wlCR7t027LGWkwsW2assbS0pqLOlBGDBnDXvCfwtgYTK3fm3BXIzt8i+fn7JZSo
+      dWz9dhnF1TmsDTvBqNFDuvI7CNdJoVCgVCppbGxsHWbAzMwMtVpNSUkJy5Ytax1QTuh851v9
+      nP9d/HG4C0HoaJdOALa90Ocfp7xJx+FDpwgN7Y9MpqWhUYPBAEoLFSamJsgMBgwyC+6472H+
+      89nr2AD+g0Kxlos2yz2dtbU1KSkpxMXF4erqSk1NDXV1dWRnZ2Nqasq4ceOYN2/eFXttCp3j
+      fKXvhWPViDoAoTNcpg7Akueeu5+tG9fhNGAmk3pbora9h59//RH3u6YyNMQaFGYMDbEmxNeH
+      Lds3EGvty4xx3gzv27FzVgo3bv/+/WRnZ5OQkMDkyZM5efIkM2fOJDw8HIVCgb+/P66uroSF
+      hTFy5EhsbGw4deoUZWVlXToctLE7f5GXy+U0Nzcjk8kwGAzo9fp2fQIEoaO0jgWkUCg6fMJh
+      oecpLS1FpVJhbm5+zesqlUoxFlAnKS8v5/jx45cdCkKMBdS5xFhAglFwdLz0iSB0P4PBgFwu
+      x9raGrlcjk6nQ61Wt04SLwgdTSQAQeghJBIJGo2GsrKyS34mCB2tNQHIZLKbvhgtCDe7yz0C
+      EoTO0JoApFKpSACC0M0uNym88OcUZyURlVXJtAkjQddAxP4DVDQrGDNxAmdzMvD3701e4ilM
+      vW8T00IiHgEJQo/xx7v/8+/9cWRQ4fLklg44WasBqM6Kx6zvWCYr84lOLsZMV0dTVR7ZDZaM
+      Fhd/4HL9AARB6HIXPvYRro+dgyOyc8exvkqCi7sKM3t3pPXlUFvAlp3H8A/wR0JLPwuNRoNG
+      o+neoLvRZRNAyoldLP9+DWdyKztsZ6XpkSzfvO+i9yuyY1mxfBn7Y7M7bF/ClVVUVLB69Wo2
+      bdrUOsxAUVERR44cwWAwcPToUVasWEFpaWk3R2o8zt/tXzj5i3gEdP0sbAwUF9ShLi9Ab2EP
+      lu7MnDqMpNgk9LTVexrzo+9LJ4DaM2w60sgTj83GVF1Fzv6l/Hy66oZ3ti5sP/NmTWT/0kVc
+      uLmMoloefPwxon9ZR8UN70X4M/R6PXPmzCEwMJBTp06h1+s5fPgweXl51NfXY2lpybx58zh8
+      +HB3h2pUxN3/jYk6uJ2UlCS2bz+IzHcg6pRD7IssIqCfCyqVCjNbb/o7NZNb3tTdofYIl64D
+      UHpgr97M0h903HffVPZsjCLSoMbH+lEa4reSWFCCidNEBrOPHSVuDB86lOJjm6g2dWD41OFs
+      /fQn3EeMZPoIJ7b/HkNhYRNPPjaS04lJrNu0mZKoeAzqpVg/+jS+NjBkxGhyT++mwaEP1l18
+      AIyVg4MDGzdupLa2lnnz5hEdHc3QoUM5efIkKpWKwMBADh06RGBgYHeHalTEHf+N+eOcwKMm
+      3dX6s41/bwCce4V0cVQ916VLADIbnnvrXR6a5Mv/vvqJ0aMHM+aeRxnsKyM5IRdkkJ2RDUDI
+      hPuYGCShUhLKgmef4TYfGxTO/Xj6kWlUpCVR02ygOisHg+9gBgQN5Om59zN68EDuOXfxB4jf
+      tZxfksx484W5iKGvus6cOXMYNmwY0dHRbN68md27dxMREUFhYSHh4eEMGDAAf/+LJ9UWOs/5
+      oR8ufC0IneXSJYCyJD7/YR+WMjW+geOw86jmxNpl+NrMobqmHtdeLsjPPcJRmpuD3Btbw098
+      8102w6cOR2neMndsXXUtBoUKa1X7YQc8/OxYu+wbbJ5egI+1mjWb99J7qJ4VS88y5+n7senU
+      rywAREZGEh0dTXNzM5MmTeKTTz4B4KeffgLg6NGj5Obm4ufn103DQhsoK8imQi3F28cLOU3k
+      ZOViZu+Oi61FN8TTuf44H7AgdIXWsYC6awwO4ebSVeO46MpT2JPQgJetlmqdA06GAspldlTk
+      FzH2zokoL7hG3ipjAR07dgxoSQAymQy9Xo9erxdjAXUBMRaQIPQkpgrMpI1IpDIszMwprTBh
+      2LAAKmVV5NVCH1XbCJl6vf6mnzBFp9O1/mwwGNq9Pv/ezf4dhZ5H9AMQeiStRo9cYQLIaGpq
+      6O5wupR4BCR0FVECEHokbWM9DTo9dhIDdTUNeJlpiYxLpLJAzZgAkEra7l3Oz6N7M/vjzF9S
+      qbRdZbBEIrnpv6PQ87SeURqNhoYG47rTEq6NUqnssn1ZeAwgyJBNVZOEYaHemEubkWXl4j1i
+      eLvn/7eiP7YEEoTOIm4phB5KipOnH06tr83w6S2apApCRxJ1AIIgCEbqsglAp67mTOxp0vI6
+      YywYA2dzUzkde4aK+uYrLlmWX4C6EyIwdo2NjcTHx5OcnIxer0ej0ZCeno5Op0On07VOGK9W
+      i6MvCLeqyySAZratXU1hvZby8vJr2uDmLVuuuoyhIokffotB31xLemYhJbE7icioa7eMuiSZ
+      48klRGwO4+w1RSD8GeXl5TQ2NpKVlUVycjLx8fFER0ejVqtRq9WUlZXR0NDAwYMHuztUQRA6
+      yaXrAGozSFP78trIUADOJh9jW0QScitPZt8XxJHwYibf6cKencX4WaVx8qyS8twcxk8Zzp7d
+      u6ltMue+OwMI33aAGoMZM2aPZe8PB5Hb23HXvZNRSKU01dWAuQNB/V3Y9vkiogzZKB+cQfqh
+      vSgUdoQOtqWyyRaA+rIMwiKLmTTYme27jtAos2X2nBlY3tx9f7qVh4cHNTU1lJSUYG9vj7Oz
+      c2s7cwsLC7y8vEhNTcXZ2bmbIzU+ohmo0FUuUwJoP/7IzoMxzHrkMXo1xxJ3tomzxdVAy//1
+      Zfk4DpzEaK9Gyi0G0T9wAE88MJWcg9uIL22ioSSF9JJq0tNLmXjnBMwAiU0/nn5oErU5x1i3
+      LY7hIwYx8q55DPK2ICM9j5HT7sCivozi6iaggtVLNhEwdAgxO7eQVaulOieWXDFP9g2TSCRY
+      WlpSX19/yc9VKpV4BCT0GOXpkaxavZa1a9dyODa3u8O5JVy6BGDZC1+zfew7egoLpQpvOzNO
+      noqmpELOWCs5UaVpxETVUYcKALlc3jqGuS1qjsWl4+7miXOdghF9Q3CxlmHr4om1WUtb58ai
+      ZCJTq7CztEJT0ITS2o6chEiKvQZi6eiGg4Upbdd3O+bNHcT+vUcZ4+mOc7Urg4YNxNGsk4/M
+      LS41NZX6+nr0ej3l5eVIJBIyMjLQ6XS4u7tTUFCATCajpKSku0M1OmIe4EvLjIzFa/hkepmB
+      0tqhu8O5JcheeeWVdwFMTEwu6GhiQr8B/WisqcHS3plBtwXRVFNDr8Gj8bN3wMnBFKmVF8F9
+      vXD26Y2jrRX2Lh442loxoI8ntY16egUNxsm0GY1EgauLF74+LlhZtbQjl5lbIFHXoVc4cfuY
+      Qdg4e2MlacTcxpW+vTyxsrLExMIBN0dbfHp74+oTgIelFK+BQ7AyNKAzUeHm4oCpaMN03eRy
+      ObW1tVhbWxMYGEh1dTUqlQoTExPc3Nxobm5GKpUSGhraOkaKqakpdXV1V9ymQqHoqq/QSq/X
+      X9SR6mbT2NhIfn4+cOl5gc3NzfH09OyO0Drc9Z5D2ooUdh5Pp7IoF62ZE94uVx48Xt9YwYH9
+      +0lMzULp6EFxbjb29nbkJZ6iUemCSt52nK92Dr134uadGOl2Dwtu97j0AIqX7QcgM7MmMLht
+      3OwLf/buG3TBkufG7jTzOPe/JyHnxh3y6z+wdSmVR9uIoFITc3oHtH0GSvoHndu+dUugJioH
+      XAFs3AHw8PYGwD8w+HIhC9fA0tKSoKC236Ovr2+7zwMCAro6JEG4ospSDVNmzyZAJUFmKr/q
+      8nX5KSj7jmWkdTFR2Wcx04s5gf9IHAWhi2morhI9zoVrp7Q3Zfe6VaxcuZKDMVevA1C5+VKV
+      cIjdR1JwdXcQcwJfgugJLHQyDYU5hbT9iRVz6LCWRx4e1Y0x9WwSiUTUA1yCY99h3GHVMke5
+      ravtVZc/m5aB+9Db8VeUERGbjbWlOzOn2nI8NgnHEQHIZLLWxz7GmgRaE4CJiUm3PL8VbnVq
+      Nq5YikPvfudeV1LWOPCKaxiz8xd/ELOBXU5zSRzHqu3wc7tyErDv3ZvEIwfI1ssIDB1Nc1XR
+      uTmBT5Nb3oSPvbjetSaA85NQCELHsmTY7ZO4bfx4WhpuFbNja0E3x3T93n333U7Zrkajoaam
+      5rKfm5qaEh4e3in79vHx4fHHH++UbXcGUysrGvLLAN8rL6dyZsLUtjmBcRJzAv+ReAQkdLqR
+      48dTW5xDg6U9CYci6TNsQneHdN1mz57dadvOzs6muLgYgIqKCgDs7OwwNTUlICAAc3PzK61+
+      3Swsbp4pNjUaDZi4c+eUwO4O5ZYgEoDQJWJ37cV0oCOx1Y2Y747D/9Gbc3rDAQMGdNq2/f39
+      iYuLa00C0NJjOzg4GBcXl07b782iMjOeIzH5mEuhRuqEx1C/7g7ppnfJVkCGigR+3BkH+gr+
+      98Fiqg1wfMtP5Fy2U2gxm9cfansVs51D6Zdu63v695/5dvM+ABJ2ryeuVEdFwgEWbz4ANPHT
+      Tz/fwNeB5sp0vvt6MYn5ZeQVVt7Qtm5ltbW17Nixg9OnTwNw6tQpvv32W3744QcaGxsJCwtj
+      6dKlxMfHd8j+vPu7sjc8nYnD/LF2t++Qbd5qTE1NCQoKYvjw4QQEBBAQEMDw4cPFxf+c+rJ6
+      Jj70FE8//TQTBvt0dzi3hEuWACTWjhQk/Io2uJZmQzOpZXqicwp43MxAYUYixfUy+gf0pbKo
+      AJlUjdRaQn5eKeibSUtKJDM2lrqQMQDom6o5k5iBuaMXnhbNrA8/zr2PPgeAow38mlhAbVkp
+      zc069HUZFFSq0NSWcSYtB4WtGwG+tuTnVqJubMDL15m0xFTk9p7YGJowKLRo5Y40F6dToZbS
+      Z0Bf4nasp9p2BJrCCBb/VsqT82fg73XpCZGNmUQiITg4mLy8PABKS0t58sknkcvlNDc3M2LE
+      CKysrNi3bx8DB954pW1jk4IHXnwBH7kOP4+rt+E2Vqamptjb22NlZQWAtfWVOzsZEzMbKT+t
+      XMpRMwl9htzJFFECuGGX7gcgc0QprSIlqZDbZw0lNyUFTO2RFZxi/d5EGoui2bgrjl/XfcOh
+      uLb2uJlHtnAwtbLdhNb7f95Abl0zhzauIrMBdFIppudatzn2D6IqKZFCYKhCRkpqMvaBA6kv
+      zyMqKoqVXyyjhBK++ffX5FZr2P/zGtIrm2lsbOTQhhXsiErBQDNJMVEcD9/AxsOZ6HU65KZi
+      lLirUalU2Nq2taLQarWsXLmSbdu2IZPJkMvlREREMGzYsA7Zn7mlls0r1nL0RCRZhRUdsk3B
+      uBikjjy8YAHPP/+8uPh3kMt0BJMQYG3KzhwJ/QP60hwdhsx5IA1leVj1uo2hIwdSkZkPJraM
+      v2MCjqqWgkRhZgEBw0fh79k2TkdWeSMjhg7B36GZKqkbTs7ODA5o+eVJLHtjqo1DolfR10tK
+      2K48BvZ3If5wBHZ9g7A1NKMGbH2CmDC0H3lljYwcPoT+vq6AOWMmT8Fdl0vUWTlBfVypqFLj
+      5eWGV99ggvv54uDoRR9PMWbInzFs2DCeeuopmpqaqKysJDIykpEjR+Lo2DGlJ5VzHyaNCkap
+      VCI3Fa3NhGtnbqllw7JVHD58mOScsu4O55Zw2UrgwCF9OBZtQCV1QC6rI/C2vti4+2ITs4Hv
+      02VMnDWX3KONmEkBFHh4OhIyxpdVm1dgbabB269l03dPDOWnlctRWN/Gg86Q4+FxwV4U9HGQ
+      Y/AagIN/A3W/VdDXTkqhrzexqek4+fVCgQJfX7eWbU0ewS+rl+MSMAJHT19UphKwcMLBUEaF
+      3g5PZxUKS9eWhGThg4thLzuPe3HXiH4XfT9jl5mZSXh4OHV1dcjlcjQaDVu3bsXFxQWdTkdc
+      XBzZ2dn4+fkxadKkG95fVVEWUVEZ6OrLcQyde9U23ILwRy03ES03dOImomNICgsLDdDySMDS
+      0rK74xF6uKKiost+9mfOIW1lDD8dMmXejI5rxqfRaFoHrLtVJCQkAJ3b6qi7XO85VJd/msVL
+      j/Doi7cTl2nN1KEdNzje1c4hyVeJHbavrvbOMEfeHXbpkrxoBip0iayofeyJysCgrcfjtlnd
+      HY5wEzqzPwqVjRK1Ukp+Yi50YAIwVmIwOKFLeAeGEuTvg2/AcEYPEn+4wrXrO2wAlWW5bP5u
+      G/1G3Xolo+7QWgIwGAztWu8Iwh/dyFAhyfu2kqscQC/S2brPmkfvuvpw0w3VZ8kvqcbJwxdr
+      hZacrFzM7N1xsb15eq4KHcdg4cQDTz2Jk6MD1qrO6RVtbFoTgFarpampqTtjEXo4pVJ53evq
+      dXqkpgoUyNDr9FdfQVtNxLFYPH08adJoyUw5RbnMjorU44y9cyJKMVCm8TE0kxR5nBNaBb0D
+      B3JboD9y8Qzjhog6AKGT6aiprME1dBxZx06RhBmTx/e+6lpNRanobL2QSk2wMDMlq9mEYcMC
+      qJRVkVcLfVT61tEy9Xp964T2twq9viVJ3mrf60aYKiywsrYgNymHggw1BaVw30T/7g7rpiYS
+      gNDJati5fj3lNJCTXY+3jyMJ6YW4D7lyRx69FkCPXtvAyah4lKLVn9ErzUkhp0LLsHG34+zm
+      hEQtLl836jJHUEtBQSnu7q7UleWjNnPBQXVtB7ugIB93d4+rLyh0C4PBQGFhIRYWFtjY2NDU
+      1ERKSgoeHh7Y2dlRWVlJY2Mjbm5uN7gnW+YuWADksGppJo8/Pf5PrWXu7ot5dhpYqTAxNcHR
+      REtkXCKVBWrGBIBU0lb21+v1F8xnfWuQSlu+3632vW5EQ0kR6TE5qCxqyG2cyH0jrzJGkkFD
+      3NFD5FY2ETJ6Mg1nc/D3701e4ilMvW/DRUwLeblWQPWEbdkFQGbEZiIy6//UxuoyItgZWwLA
+      lrDNl1uILTtjrzlQoWOdPXuW5ORkkpKSADhw4AB1dXXs2rWLpqYmYmJiiI6O7oA91bJ/61a2
+      bv2dlPRTbN26lVPJhVdfTe7A4GAfpCZKBgcH4BcUipPShJARw8XzfyPVWGtgQJA7JnaOVGQX
+      X3X5pqJEKiwDmDbtDlwsTaira5sT2Flc/IErPAJqrCwiJiaGzLxSTHwNnInYwanUYlwDxjDS
+      rZlffo9EI3PikYdD2bL8AHJ7O+Sle9ld6Iqt4kE0NSWErV9FvZU/995myY87IlE49yFQnsTu
+      nYWY2yroryhiT0wOSgc/Zk9wZ+36k8gl5TjeNpP+8hwOnErFzDWA++8YJtqrdjBnZ2dUKlVr
+      hyOdTsfIkSPRaDQ0NTUxYcIEfv/99w7YkxwPPz/U+OF37qmP9Z9sxaOyc8Xf7vwrM3x6i+e9
+      xmzgnXfgp4WoyFimTLl6M9CqkhqqKs6y4zcNfQeNOjcncCrjZ8xunRP4fF2LsfqT19Vqtmza
+      jd6gI/5MAtXlZ2nSQsrBI5TQRHp6KRPvnMCY4SMZNGEWw/s5IzO3Y9rcRyjPPIm6qoQ6LHCx
+      syJo+HAGDJrA1OH9CD8Wz7xHH8U6P4rM6nqq9Y7MmzWalNhMtm3ZRJPeQEr8GUTbpJuZgj4D
+      BzLwgn9ezmKES+FatJQiww8c58iR4zQ2NVJaVn3VtSztVbj5DuGuSSPITUsFS3dmTh1GUmwS
+      elqaNZuamt5yvcivxWUTgLmtK4MGDaKPpyOgxM3blb4DQxk/PIj0mAScBwTj5dgyZK2tiyfW
+      ZjLklracTY0hv6wOqakpplIZUikYLDwZ6GPFsfC9VMstUZ9NJT2/DHdLU05Gx5DfbIadGZjK
+      5UhlUqSAp5s3nn0HMnX8cET9X8errKwkLi6OjIwMioqKkMlkHD16lMLCQuRyOadPnyY7O5u0
+      tLQO2V9FQSa5JVWIWW6FayfHwc6ChoZGVPZu+Pn54fQnSpFKj/6YFkTx297j+PYPQKVSnZsT
+      uJnccnFbCReMBaRQKDAzMzv39sWVwGZNZ8nIO4vK0RN3lZaUnHIslSrcejtRnl+Hu4cD6JtI
+      S0xG6dob1JW4u3tQUJCPg7U5qRl5mFg508/Xmfy0RJqVrnjbSklKy8HKxRdvexkFpVrcHU0o
+      KNXiaKkjJSMPmcqRfr3cxSOgDlZZWUl2djYALi4u2NnZkZKSgqenJxYWFiQmJmIwGFCpVPTp
+      0wdo6QdwveO4VOQnc+RoNDWd0IZbjAV0c7n2c0jNqkX/w7JXH9Izqnnpb09gdsm1r58YC+gP
+      b7u7uwKgcvBABaByI9i+rUVIcJBz68/uHud+HVIFfQKDz73bkqHPtwQaGNw2C5Rnn7aBwAYG
+      t40KeW6Xrf9fuI7QsWxtbdvNBwAQFBTU+nNISMdOnC3acAvX7yxN0r7MGDsOWdaPpFdW4mNm
+      gcpcTCx0o0QbM6GTtXQEy0g4Q6OZM7PmjcbK0oTKs5ruDky4aZhBfRrr1xdSX19N9vr1BAyZ
+      ypSr9CURrk4kAKGTne8IBpBFVkI0vcUfr3BNnHjmrVe7O4hbUmsCMDExQaFQdGcswi2ppSNY
+      dWUVlrY2SDT15J1t7O6gBEHgggQgkUhuaLRHQbiS6txo9h6XoClIxnP0LLy6OyBBEETjGqGz
+      NRB1+DA5NTJSfttImZUn9ubiRkMQegJRByB0MinmSiUGTT0eIaPxdVP8f3t3HhzVfSV6/Ktu
+      qVtq7Sta0b4gENqMEPvuZWzAY5tne+IBQ2wnM5WZyUxlaubN1LylUlNTeVWZSpy8eTEQE+xg
+      Y8DYhNW22ISEMGjfJYR2tC8ItVq9qt8fwsIkCAyou7Wczz+g2933d1p11afv/d3fOQzqpO+E
+      ENPBJGcAWt77j//Fe+/9hiNfXMMMtDY18ceFaY8fOoJ24iUNHDpect+9NZVcYM+e3/De/mOM
+      yN/+tFRSUsKePXs4fvw4BoOBQ4cOsWfPHurr659wz64kZ2biOdxBbVUn4Wkh1JW1TknMQogn
+      M0kCMDOqDuWdt3aiqDtJUYeRtvZ2wERDRQnFZdWMWqCztZHaqlLqW3vBrKW98xZW0whVZcXU
+      NnVNrPoMjMvgzTd34NpZQafeXm9NPIra2lp27NiBxWKhs7MTHx8fXn/9dWpra6dk/yY9uHtY
+      qb5WAZ7S0UuI6eCBcwBOSjUZi0Koaxkgv+gazpYRyguLuPj5Pk6UdoPFgN5o4cS+9+m6c3pQ
+      ePITqnsNFJ/8kPKe8Y0eln5+u3sPfX5JhEont2kpKiqKffv2YTAYCA4Opru7m9///vdER0dP
+      yf6TNz3LmjWpYAph64akKdmnEOLJPDABWC0GSmt6SIocL8k42lpBncmP5EhfBm/rwcWDhalp
+      RLhbGLpTWqPt5jAZy5aQMl9Fe//41/1hhR9v//CvSTJVUtVn2zckHk9TUxO7du1CpVJRUVFB
+      bGws27dvp7Kyckr2r+trJu/iddIzAvi6/OaU7FMI8WQmLQXhZuhg9979BCU9T2aoihvh4bj4
+      heChLUMXEkSIjxrXSG+Ovr8XZewKYr09CA+xsn7RSg5+8FuU7vN5Nc4DgIbicxTW94BXGqt8
+      7z+icKyYmBh+97vf4efnx4IFCzh+/DhVVVVkZ2dPyf4rzxfh4aNBr1HQXt0KWRFTsl8hxOOb
+      KAb3oEJeQnzjcYvBDdZf4de/O4M6wJXlm3/IynifKYtJisHNLI97DNmSFIMTwiZ0lF+tQTMv
+      gr/5px+jUKrx8pCJICGmA1kIJmxMAWYtVYWXOPLJIT799FMKqtodHZSYI6ymYU4cOMoAUF/f
+      AEBbdSFdI3O7E9g3Js4AzGYzer3coykmd7dfxKNwwtXdm4goVxTWRnpu6zD/8YISIWyksbIC
+      jYcXRrinJ/BK6QkMfCsBWK3WOd8fU9jCbU78/hPcUzJISU4k3i+A+WHBjg5KzAHGoTYGXMKJ
+      8Gke3yA9gf+EzAEIGwvk73/2Uzqa6rhWWEJhbjP+yVv53rMpjg5MzHItNTU0dxvQtbUQ4DGP
+      EM8wXnzWlytlNQQuS0apVE4UwDSZ5mZ/CkkAwsYGOfhfB7it1hASHsWKpDTmR8U6OigxB8Rn
+      P0080F5ahiYtkb76hjs9gUtp7TcQ5S/l7yetBfTZZ6cBuMan+d8AABIoSURBVJF/hPwb2vs/
+      7YmMcfHYfj6/MF4/SNvXzi39vWNPpjLvBPv27eNwzjUwa7nZecsG8c09Wq2WtrY2YLxncEdH
+      xxTs1Ys/f+sH/ODtXWx5bj2ZqYsI9P6OdwGN6Tl75CDto6DrbeLU8eOc/bpaGsuLRxKeloof
+      kJAQB8C82DT58L9jkjMACx03uwAY6Wunz9OCbrCT+pYeQmOS0Bh70VlVjJpV+DoP03hzkIi4
+      JPw1Vq5X12LWBJEUM978fUDvQmJyIq5KMNzupbbxJgERcbgb28i51sJfvPU0oCf34P+jN/4V
+      nl8xn7bG69RUhOIZGkeYtxO11fU4+4YSHxEEjPFVXgk7f/zfMWuH6KzL5b1jvWzf/jxRfsp7
+      m8z36BjRjRLkrqBnWItJ4YbGrMWkCSJhfpDdfskzgdVqJTc3l/7+fl599VVKSkrQ6XSEhoY+
+      /MUPpMTV9fHKP7fXlKHy8GLUAhV1rax+9s9o/zqXLmMyIQ5qB/vN/fm21tzcbJdxANzd3YmK
+      irLbeGL6mPQS0EBjCfv2QXdtDQuijRze/1ssXv6cunKdF0La+XI4mZfWJXHk4ClSshdy4JPj
+      PBdr4Q/VtzF2tfDiO29y7NA5nsrOICI+EVflGH84cpCwlGxyD3zCy9uyUSiccbrP2EadDpP5
+      Fp8eOcOqUC2XuiwMNZ9i5//4FyLUCv5s3RIO799HUFIWSwLuvu6LTw/inpjF5Y8/4qW/XMGv
+      fvklL7zxEl2XjtKfuIGGC0dZ/fzznDlxiP/5kx/Z4Nc5czU3NxMSEoJer0elUrF+/XrOnTvn
+      sHgsum7ajX7EBenRAk6ubni4KAkLUtMyDEE+dyfwzGaz3SbzKrrt1M3MbZ7dxgvwVhASYrD5
+      OGL6mTQB+MWks3PnTsqPDdGEjo5uI+tXLWWx2gtutJO+fD0x8zo54xRMRsYSLl5+n66WUQJi
+      lrFoyUL83f1ZsTSeusorBC3Mxi8YBvRObM3IoOniZRQh4QQFhZAUFQLA/Mgg1HGL8Hcfwc13
+      HovT07iUf5T2li7CU9azYvFixgtLmPGPyWJX+kp+/tNfsuoft+IXoCY2zJ9zwybeyEhnpDCX
+      AT3Mi0tnZUoMuYUuxC5czK3iSySlplGQl2ef3+4MYbFYyMnJISMjg/b2doaHhx2+Krzreg3N
+      TcM09bXgNOxHtHIUrcnCzR4D/lHcM4EH2G0lcGRCsl3GsScvtULawc5RkyQAJaF3btVzDwgn
+      wN2fjWuTKSsrIyguk4UB4VjdncE5lPTYy+zff4DUZU+THmGg9lg+lf0+hEVEcbOrG4vaBy+3
+      8aHWpMfy4f79eKUuI+hbYwBELl7OhZMfEPHKi3e2jz++MnURR74qQ+cVREwGgIXK/DM0DRqI
+      WbURb/dIgrnAV1cjeGZZCh998AGa8ExivN2JCh+/WuwdHIa7EoLDQlEC4aFhNvyVzkxLly7F
+      Yhlv1mAymSgtLaW5uZnr168THx9v93jCUtfyWioM1Jeii0jBT9vEhTOncAuOJ9FBl3+EmG0m
+      agGp1erHXOgjZpPe3l68vb2prq7GarXi4eExkQA0Gs2MrOMylQradXYZx5681AoWBtrvb38m
+      HkNSC0jMCYGB4wdKWlqagyMRQtiarIcWQog5auIMwMnJCYVC8oEQQswVEwnA2dlZ5gCEEGIO
+      ka/8QggxR0kCEEKIOWrSBGDR36ayrJjymhsYJ1lkqe1tZfBbLQRa28fryGDW0npzALDSWF2N
+      HhjuaWVQ/92ruBiG+ygrLuJ6u3SRF0IIW5gkARg4+v5vaR82MdLbQOfQHz18q4mzRU005B6k
+      tPvu5oNHDt/5320OfnQCLL188u6vqR4YI//oEToeoeJq+bUChk0WTu7bT5flUd6SeBx5eXns
+      3r2bzz//nLGxMS5evMju3bupr693dGhCCBu5/zqA4QbqRqP4ycIIqhqd8XKDM2eO8+yzm8f/
+      TQunZ8QT/ztPLzv/GQUN/VzvvlNPxDkYlaKXkZs1xG5aR9P1XrpMzqz3NPDFwY9o6RslbfMb
+      6C+fYjhAzbyoDOrPn2JE6cuW773OPFfIXPs8o4NtXPlKyexq9z09LV68mKVLl3LkyBH6+vro
+      7+/nrbfemlgdLISYfR46B9CQ+zGl3dDVNb56r6urEwy3aOv9pkS0lrNXW9n1/V3EBX5TT0TB
+      AnclZ4u6SVq3GmvLZZTOgagMw3QNjmLRtnKxqJnetuu4x68iM8KJrj4jwSHzUFrHLxPdai5k
+      70dn2bxrB/6PV0xSPAKLxcLevXvx8fFBq9XS0dHB3r17KSsrc3RoQjweq5mqr89z8ouLDJms
+      dHaOVzjWdjXSLT2BgckSgGcc0cpazlW0onDxwNUFDEM9FBZdo/dPWgOo0biMUFxcSv/I3Ws8
+      KYv8OVZ0mzi/QAw3z6MMWwxDrVwf9iArJR6r1Qp4ER0ViJNRxaIlC2gt+oLqnvGziI/2fUDk
+      4mS0na1opYeszTk5OfH2228zOjpefTIhIYGdO3dSV1fn4MiEeDzGgU5co5/i6ZUxlBc3jicA
+      i5YrNT0ESU9g4Fu1gP64Bod59BbVtY1YXTxIXJDArdYaegxu+HmrCPd1o3XYBT8GMHnORzHU
+      wo1OLa5eHiTHRAIwphugol1LasJ8OpuqUfjHMc/TieuVlSg0Xrh4zcNt9Bae88NxNY9SU12L
+      Hg3JixJRK6CxuojBUQBnElNT8ZCiFTZ15swZWltb8ff3Z8uWLeTm5tLY2EhWVhapqakTz5uJ
+      dVym0hf1/XYZx5783FxYEuFlt/HsegyNGakovIJPXDa9FV9R3zHK+hdfJsjN6U96As/FWkCT
+      JgAh7meuJ4Bf5lTaZRx7CvN155XMaLuNZ7djyKrjWl4FSdlZeLo4UVxcSmyAlYqheaxMubfR
+      0VwtBifnQUKIWWmo7iplHd1cOHOCorrxpOM9P50gQz2N/dIAB6QaqBBilvJOWstbSd/eMt58
+      KuGptY4IZ1qaSABmsxm9Xv+g54o5TmpFCTG7TCQAq9Vqt76qQgghHE/mAIQQYo6SBCCEEHPU
+      /SeBLYO8/+4+nHx88IvOxLfpEj4v/YjF3pPvaKilhEZiSI98wJPEtNXf38/p06eJjY0lOzub
+      /Px8WltbeeGFF/Dyst894kII+7l/AhjtpnXEn3/+2+24Kp3IbboEmLl86WsC3MxoEtfgPVRB
+      qyKAkZZuhgcHWLTQFzdXNbVX8rjRdxOLWyjOg624RmezPjPWvu9KPLK2tja2bdtGTk4OTU1N
+      GAwGtm7dSk5ODlu3bnV0eEIIG7j/JSCPJN56KZ597/4fPjlXDej4+N3/RBmxiBAfI6fOlZN3
+      9mu8/Ez84cPPiV+xEkNLKXXdBuquXCNuw8s0lF5mzZaXKc09Yd93JB5LWloavb29qNVqwsPD
+      6e7u5uDBgyQmJjo6NCGEjdw/AdzuYMgrmXd+8Cp1VwsADevXLaSyvAnPuPWoes/Spw4hwhVC
+      EtKZ76361otVuLk5o3B1x13likr13XsACMe5ceMGnZ2dbNy4ka6uLmJjY3nttdeora11UERj
+      NJTkcfLUWfpGLVhNQ1w8c5Kyxh4HxSPE7HP/S0CunnRdOEXhELz5w7/E2lSK64IsAotyGTIr
+      SdKMMZSxGhhjSfb4N0TvyDQSXdWQvQRvIHtJFgBZS7Lt9FbEkzh9+jTu7u5UV1ezceNGSkpK
+      qKioIDrafiUC7qHtwRSwkOeSreQVVuBh6WPB6qe5kXuWwahn8ZXbF4R4YhO1gNRq9Xda6DPU
+      UkJOwxgvbcjEyebhielEo9HYtxaQ1UxN6VVcQxbT215N1lNZDNdfpsV/OQt87hbyMpvNKBT2
+      yQiHDx9++JOmQF/feCe8gIAAm48VGBjI2rVrbT7ONwYGBiZ9bLrWk5qttYAeuRSEd2Q6L0c+
+      cUxCPISJsoKrhKdn4++mpKPRjBUYGQFNBCiVSpTKu40i7FUM7o033rDLOFVVVQAsXLjQLuPN
+      SsZ+jh07h3FsjKXPbaOvoZyMjDTK878iKG0DwVISWmoBienJ2F5KQUMPYf2nCIhKISlIzZHP
+      joHan5fTHR2dmAl6a2tZ8OwrJLh2c7m0GVclDLeVow9IlQ//OyYSgFKptNu3KCEeRhW+hB9u
+      X/KtLVFsi8t0WDxi5jEZXXB3dwKFOwpTH+hucqJWy7oXUxwd2rQxkQAUCoUkACHErOEb4szV
+      qh48PG5g8U2CUTOvvxpHzvkCAjcuRzrNSikIIcQs5RaWTrCxhmudHmQv8CUkJBiUHqxKD6Nd
+      +gEAMgcghJi1nEjMXMM3SxlDQoIBUPtHIvexjJskAeg5+eEH3DQ4k73xz1kc5WvfqIQQwsa+
+      3RPYYrE88Ln/kuFjj5BsYkWQCyaT6b6PTZoArvfC3/5oG7/63z/F9Z9+RoLX/e/6bzm/m0Lf
+      /8bLaT7knz9P5rp1SNuQmaegoIArV67wzjvv4OTkxPvvv49CoSAlJYVVq1Y5Ojwhptyj3Er8
+      7ytDJ31sJnvgJSCFypOtG2LJrWqjpvYYXXoLbuEriTeWcbXPTNSCTLR5RVyz6ony3k5+WQkr
+      0n355//4ioQQHYboLejKTvH2v/0rB3/1C773Nz/GXVaPTUvLli2b+L9WqyUhIYHly5eTl5fn
+      wKiEELb00Eng/r4hAj0HOZ/bjJNSg0bjRGB4MNYRHXqTMytXZrJqy3Yyo++eIgXFPsWuN7cy
+      2n2L1zZEcvr8BRRBS+XDf4bw9vamt7eXAwcOEBwc7OhwhLC5uXoH5KQJoP9GEb/5r19zdiCG
+      DYsWsChRjWls/LTp1vAIbhpXGm/U4xcew9dH91DcPHTf/YQt30LtgQ/Jfk5qAs0UTU1NREdH
+      s2PHDsrLyx0djhDCRiZqAdmqBkdRzidcvKnhH3ZsnvJ9i6mTk5NDY2MjAK+88gpFRUW0t7ez
+      efPme+rR2LUW0Hf0sDouM9FsLgUxHY8h27DSUlHA0c+Psebtn5ERDK1lZzlfOYg7I3gnr2FT
+      etTEs0svHqdhwIJ1pB+vBRt4JtObX/z0N8SmLQLULH/mafxVkw72WGx+G2jmxleR9ZvT38aN
+      G+/5edOmTQ6KRIjZYoRRZTixwe4TW65crGTTj/6OUKdefv1/z96TAGIz1pLm6Yl1sJqff1rJ
+      M7FxKOZnsHnzMzaLUNYBCCGETXiQlOzB9fy7W9Y8k8nx/R/jqdCzeMO9H+yenp7oB9v46EAO
+      6154A4uTjhg/I8eOHqT7tht/sX0rHlO8dFcSgBBC2EnBpUKWb3mbSFrY84erLHSL5XJFMwlP
+      rSPQUM/Hpyt5ecdfEezpAvjxwuZwAPIP/4qKNgPLItVTGs9EAjCZTOh0uinduZhdNBqNo0MQ
+      YgazojeYcHFWosQFk0GPX1QKm6PGi9N99POTPPODfyX4ztf8ofZaOphH4jwVTd0mVvlP7Yc/
+      PEZDGDF32b0hzHckk8Azy3Q8hmxC28nx84UTP4YmPEVqhJrL+VfQjmlYumol/ppvvoMbKfjy
+      C/rulChSB0SxaWkCFVfyaRnUk5i2goQw7ykPURKA+M4kAdiPJABhD1INVAgh5qhJEsAQ//bG
+      Ns42DkNrLr84Nr4YaP+7P+E/935hx/CEoxQXF3Po0CGMRqOjQxFC2MikZwDBS1fRevHM3Q3G
+      NkbdVqMarkJvj8iEw9y6dYv29nZWr17NuXPnHB2OEMJGJr8E5OTJU0F6CrvHy4h2l17GPTmD
+      hV5myrsfXDpVzGz9/f0kJycTHBz80DK59mI1DXHxzEnKGnscHYoQs8YD5wBSNm2i9PRpAPK/
+      buB2/Vc0jegpyJf6MLOZSqVCq9VisVhQKKbHNFFJwTUWrH4aXX0xg2OOjkaI2WGShWBqlmSl
+      gSqY5Rs3cNsvCEI28lLWUrAOU1DQZN8ohV2Fhoby5Zdfkp+f/yclIhzFrPEiSOOCW4wXLYPg
+      6+/oiISY+SZJAK5kZaUDkLz8uTvb7pQFdvJk2fLFto9MOIxSqeT73/++o8O4h8loxgqMjIAm
+      wtHRCDE7TI/zeyEeIilIzZHPjnGpc4woN0dHI8TsILWAxIzgH5fJtjipKyvEVJpIADqdjuHh
+      YUfGIqY5Pz8/R4fgcIcPH7bLOD0943c7VVdX23yswMBA1q5da/NxxPQzUQpCiCelUqlQqaa4
+      Y8UkxsbGps0tquLRGAyGSR+z5zEk5BKQmEJGo1FWDosnIseQfckksBBCzFH/H8WLGfieuo40
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
